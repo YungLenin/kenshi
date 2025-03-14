@@ -84,7 +84,7 @@ village_snow_deserted_a 1 map_village_deserted_c 0.300000 0 0 0 0 0
 manta_farm 1 manta_farm 0.300000 0 0 0 0 0
 
 
-camp 1 camp_tent 0.130000 0 0 0 0 0
+camp 1 camp_tentc 0.130000 0 0 0 0 0
 
 
 corsair_airship_a 0 corsair_arship_ab 0.150000 17 0.000000 0.550000 2.500000 0

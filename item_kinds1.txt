@@ -1,5 +1,5 @@
 itemsfile version 3
-1577
+1932
  itm_no_item INVALID_ITEM INVALID_ITEM 1  invalid_item 0  12582914 9223388529554358287 3 0 1.500000 100 0 0 0 0 0 103 0 90 0 522 528
  0
 0
@@ -328,7 +328,7 @@ itemsfile version 3
  0
 0
 
- itm_book_persuasion Rhetorica_ad_Herennium Rhetorica_ad_Herennium 1  book_b 0  20 0 5000 0 2.000000 100 0 0 0 0 0 0 0 0 0 0 0
+ itm_book_persuasion The_Holy_Flame The_Holy_Flame 1  new_book 0  20 0 5000 0 2.000000 100 0 0 0 0 0 0 0 0 0 0 0
  0
 0
 
@@ -432,11 +432,11 @@ itemsfile version 3
  0
 0
 
- itm_wine Wine Wine 1  amphora_slim 0  33619979 0 220 0 30.000000 60 0 0 0 0 0 0 0 0 50 0 0
+ itm_wine Sake Sake 1  dou_hyoutan 0  33619979 0 220 0 30.000000 60 0 0 0 0 0 0 0 0 50 0 0
  0
 0
 
- itm_ale Ale Ale 1  ale_barrel 0  33619979 0 120 0 30.000000 70 0 0 0 0 0 0 0 0 50 0 0
+ itm_ale Cactus_Rum Cactus_Rum 1  rum_bottle 0  33619979 0 120 0 30.000000 70 0 0 0 0 0 0 0 0 50 0 0
  0
 0
 
@@ -464,11 +464,11 @@ itemsfile version 3
  0
 0
 
- itm_apples Fruit Fruit 1  apple_basket 0  34144267 0 44 0 20.000000 110 40 0 0 0 0 0 0 0 50 0 0
+ itm_apples Rice_Bowl Rice_Bowls 1  rice_plate 0  34144267 0 44 0 20.000000 110 40 0 0 0 0 0 0 0 50 0 0
  0
 0
 
- itm_raw_grapes Grapes Grapes 1  grapes_inventory 0  33619979 0 75 0 40.000000 90 10 0 0 0 0 0 0 0 10 0 0
+ itm_raw_grapes Hampao Hampao 1  baozi 0  33619979 0 75 0 40.000000 90 10 0 0 0 0 0 0 0 10 0 0
  0
 0
 
@@ -488,7 +488,7 @@ itemsfile version 3
  0
 0
 
- itm_chicken Chicken Chicken 1  chicken 0  34144267 0 95 0 10.000000 110 40 0 0 0 0 0 0 0 50 0 0
+ itm_chicken Foodcube Foodcube 1  foodcube 0  34144267 0 95 0 10.000000 110 40 0 0 0 0 0 0 0 50 0 0
  0
 0
 
@@ -644,7 +644,7 @@ itemsfile version 3
  0
 0
 
- itm_cartridges Cartridges Cartridges 1  cartridge_a 0  16875538 0 41 0 2.250000 90 0 0 0 0 0 0 0 3 50 257 0
+ itm_cartridges Cartridges Cartridges 1  pp_hellfire 0  16875538 0 41 0 2.250000 90 0 0 0 0 0 0 0 3 50 257 0
  0
 0
 
@@ -768,7 +768,7 @@ itemsfile version 3
  0
 0
 
- itm_lady_dress_ruby Lady_Dress Lady_Dress 1  lady_dress_r 0  553648141 0 500 123731968 3.000000 100 0 10 10 0 0 0 0 0 0 0 0
+ itm_lady_dress_ruby Lady_Dress Lady_Dress 1  akaidress 0  553648141 0 500 123731968 3.000000 100 0 10 10 0 0 0 0 0 0 0 0
  0
 0
 
@@ -780,15 +780,15 @@ itemsfile version 3
  0
 0
 
- itm_red_dress Red_Dress Red_Dress 1  red_dress 0  553648141 0 500 123731968 3.000000 100 0 10 10 0 0 0 0 0 0 0 0
+ itm_red_dress Sayadina_Dress Sayadina_Dress 1  chinese3_robe 0  553648141 0 500 123731968 3.000000 100 0 10 10 0 0 0 0 0 0 0 0
  0
 0
 
- itm_brown_dress Brown_Dress Brown_Dress 1  brown_dress 0  553648141 0 500 123731968 3.000000 100 0 10 10 0 0 0 0 0 0 0 0
+ itm_brown_dress Noble_Dress Noble_Dress 1  womancloth1 0  553648141 0 500 123731968 3.000000 100 0 10 10 0 0 0 0 0 0 0 0
  0
 0
 
- itm_green_dress Green_Dress Green_Dress 1  green_dress 0  553648141 0 500 123731968 3.000000 100 0 10 10 0 0 0 0 0 0 0 0
+ itm_green_dress Armored_Dress Armored_Dress 1  tukurobe 0  553648141 0 500 123731968 3.000000 100 0 10 10 0 0 0 0 0 0 0 0
  0
 0
 
@@ -1660,7 +1660,7 @@ itemsfile version 3
  0
 0
 
- itm_bastard_sword_b Heavy_Bastard_Sword Heavy_Bastard_Sword 2  bastard_sword_b 0  bastard_sword_b_scabbard 3458764513820540928  4198403 9223635954298781951 526 155668 2.250000 100 0 0 0 9 0 97 0 105 0 283 37
+ itm_bastard_sword_b Bastard_Scimitar Bastard_Scimitars 2  khazad_orc_bastard_scimitar_2 0  khazad_orc_bastard_scimitar_2_carry 3458764513820540928  4259843 9223635924234010879 6526 155668 2.250000 70 0 0 0 9 0 97 0 105 0 283 37
  0
 0
 
@@ -2284,7 +2284,7 @@ itemsfile version 3
  0
 0
 
- itm_flintlock_pistol Flintlock_Pistol Flintlock_Pistol 1  flintlock_pistol 0  4198416 481036795904 230 0 1.500000 100 0 0 93 0 0 40 160 0 1 311 0
+ itm_flintlock_pistol Flintlock_Pistol Flintlock_Pistol 2  flintlock_pistol 0  pistol_flintlock_carry 0  4198416 483452715008 230 0 1.500000 100 0 0 93 0 0 40 160 0 1 311 0
  0
 1
 -51.000000  4 600 1 1152921504606847102 720 2 1 27 721 2 1 36 1969 3 1008806316530991133 1 15 
@@ -2326,7 +2326,7 @@ itemsfile version 3
  0
 0
 
- itm_court_dress Court_Dress Court_Dress 1  court_dress 0  553648141 0 348 123731968 4.000000 100 0 14 4 0 0 0 0 0 0 0 0
+ itm_court_dress Court_Dress Court_Dress 1  akaidress 0  553648141 0 348 123731968 4.000000 100 0 14 4 0 0 0 0 0 0 0 0
  0
 0
 
@@ -2730,7 +2730,7 @@ itemsfile version 3
  0
 0
 
- itm_fulgurator_rifle Fulgurator_Musket Fulgurator_Muskets 1  ottoman_musket_e 0  6357009 6174539776 1300 0 2.000000 5 0 0 99 0 0 55 170 0 10 301 0
+ itm_fulgurator_rifle Fulgurator_Musket Fulgurator_Muskets 1  ottoman_musket_e 0  6357009 555930353664 1300 0 2.000000 5 0 0 99 0 0 55 170 0 10 301 0
  0
 1
 -51.000000  4 600 1 1152921504606847102 720 2 1 27 721 2 1 36 1969 3 1008806316530991133 1 15 
@@ -2807,12 +2807,12 @@ itemsfile version 3
  0
 0
 
- itm_zaplance_a Zaplance Zaplance 1  zaplance_a 0  543162385 549756338176 1450 0 2.000000 20 0 0 99 0 0 55 170 0 10 301 0
+ itm_zaplance_a Zaplance Zaplance 1  xenoargh_spear_gun 0  543162385 549756338176 1450 0 2.000000 20 0 0 99 0 0 55 170 0 10 301 0
  0
 1
 -51.000000  4 600 1 1152921504606847102 720 2 1 27 721 2 1 36 1969 3 1008806316530991133 1 15 
 
- itm_zaplance_a_m Zaplance Zaplance 1  zaplance_a 0  4460548 4222124851986688 1450 8202 1.500000 100 0 0 0 0 0 100 0 162 0 285 0
+ itm_zaplance_a_m Zaplance Zaplance 1  xenoargh_spear_gun 0  4460548 4222124851986688 1450 8202 1.500000 100 0 0 0 0 0 100 0 162 0 285 0
  0
 0
 
@@ -3120,9 +3120,10 @@ itemsfile version 3
  0
 0
 
- itm_spaceclan_pistol Lasgun Lasgun 1  mar_raygun_a 0  4194320 2416377856 300 0 1.500000 50 0 0 99 0 0 75 140 0 10 301 0
+ itm_spaceclan_pistol Flintlock_Dracgun Flintlock_Dracgun 1  xenoargh_double_dragon 0  4194320 2416377856 300 0 1.500000 50 0 0 99 0 0 75 140 0 10 301 0
  0
-0
+1
+-51.000000  4 600 1 1152921504606847102 720 2 1 27 721 2 1 36 1969 3 1008806316530991133 1 15 
 
  itm_spaceclan_pistol_b Lasgun Lasgun 1  raygun_d 0  4194320 2416377856 300 0 1.500000 50 0 0 99 0 0 75 140 0 10 301 0
  0
@@ -3176,24 +3177,24 @@ itemsfile version 3
  0
 0
 
- itm_terran_lasgun Fuselock_Gun Fuselock_Guns 1  fuse_lock_pistol 0  4198416 2416377856 300 0 1.500000 100 0 0 99 0 0 85 170 0 10 306 0
+ itm_terran_lasgun Fuselock_Gun Fuselock_Guns 1  fuse_lock_pistol 0  4263952 2416377856 300 0 1.500000 100 0 0 99 0 0 85 170 0 10 306 0
  0
 1
 -51.000000  4 600 1 1152921504606847102 720 2 1 27 721 2 1 36 1969 3 1008806316530991133 1 15 
 
- itm_terran_helmet Astronaut's_Helmet Astronaut's_Helmet 1  terran_helmet_rigged 0  1073749772 0 325 704643238 1.750000 100 40 0 0 0 0 0 0 0 0 0 0
+ itm_terran_helmet Deep_Diving_Helmet Deep_Diving_Helmet 1  Shenhuaren_head 0  1073749772 0 325 704643238 1.750000 100 40 0 0 0 0 0 0 0 0 0 0
  0
 0
 
- itm_terran_spacesuit Spacesuit Spacesuit 1  terran_spacesuit 0  16781325 0 1259 704643236 18.000000 100 0 30 20 0 0 0 0 0 0 0 0
+ itm_terran_spacesuit Deep_Diving_Suit Deep_Diving_Suits 1  Shenhuaren_body 0  16781325 0 1259 704643236 18.000000 100 0 30 20 0 0 0 0 0 0 0 0
  0
 0
 
- itm_terran_boots Space_Boots Space_Boots 1  terran_boots 0  536878862 0 174 0 1.250000 100 0 0 20 0 0 0 0 0 0 0 0
+ itm_terran_boots Deep_Diving_Boots Deep_Diving_Boots 1  Shenhuaren_foot 0  536878862 0 174 0 1.250000 100 0 0 20 0 0 0 0 0 0 0 0
  0
 0
 
- itm_terran_spacesuit_f Spacesuit Spacesuit 1  terran_spacesuit_fem 0  16781325 0 1259 704643236 18.000000 100 0 30 20 0 0 0 0 0 0 0 0
+ itm_terran_spacesuit_f Deep_Diving_Suit Deep_Diving_Suits 1  Shenhuaren_body 0  16781325 0 1259 704643236 18.000000 100 0 30 20 0 0 0 0 0 0 0 0
  0
 0
 
@@ -3494,7 +3495,7 @@ itemsfile version 3
  0
 0
 
- itm_scale_tabard_a Lamellar_Armor Lamellar_Armor 1  scale_tabard_a 0  16842765 0 890 704643236 16.000000 100 0 38 16 0 0 0 0 0 0 0 0
+ itm_scale_tabard_a Desert_Tracker_Armor Desert_Tracker_Armor 1  ubese_armour 0  16842765 0 1890 704643236 16.000000 100 0 38 16 0 0 0 0 0 0 0 0
  0
 0
 
@@ -3566,7 +3567,7 @@ itemsfile version 3
  0
 0
 
- itm_doublet_brown Leather_Doublet Leather_Doublet 1  doublet_brown 0  553713677 0 331 123731968 2.000000 70 0 31 9 0 0 0 0 0 0 0 0
+ itm_doublet_brown Grimy_Coat Grimy_Coats 1  richvillanooutfit 0  553713677 0 331 123731968 2.000000 70 0 31 9 0 0 0 0 0 0 0 0
  0
 0
 
@@ -3574,7 +3575,7 @@ itemsfile version 3
  0
 0
 
- itm_doublet_rich Leather_Doublet Leather_Doublet 1  doublet_rich 0  553713677 0 331 123731968 2.000000 70 0 31 9 0 0 0 0 0 0 0 0
+ itm_doublet_rich Daimyo_Hakama Daimyo_Hakama 1  daimyo_hakama_new 0  553713677 0 331 123731968 2.000000 70 0 31 9 0 0 0 0 0 0 0 0
  0
 0
 
@@ -3590,11 +3591,11 @@ itemsfile version 3
  0
 0
 
- itm_orogon_vest_a Orogon_Vest Orogon_Vest 1  orogon_vest_a 0  553652237 0 25 704643236 2.000000 70 0 13 6 0 0 0 0 0 0 0 0
+ itm_orogon_vest_a Orogon_Vest Orogon_Vest 1  sw_armor1_grey 0  553652237 0 25 704643236 2.000000 70 0 13 6 0 0 0 0 0 0 0 0
  0
 0
 
- itm_orogon_vest_b Orogon_Vest Orogon_Vest 1  orogon_vest_b 0  553652237 0 25 704643236 2.000000 70 0 13 6 0 0 0 0 0 0 0 0
+ itm_orogon_vest_b Orogon_Vest Orogon_Vest 1  sw_armor1_brown 0  553652237 0 25 704643236 2.000000 70 0 13 6 0 0 0 0 0 0 0 0
  0
 0
 
@@ -3808,11 +3809,13 @@ itemsfile version 3
 
  itm_drylander_gun_a Fulgurator_Rifle Fulgurator_Rifle 1  drylander_gun_a 0  6357009 555930353664 365 131082 6.000000 100 0 0 99 0 0 53 183 0 1 304 0
  0
-0
+1
+-51.000000  4 600 1 1152921504606847102 720 2 1 27 721 2 1 36 1969 3 1008806316530991133 1 15 
 
  itm_drylander_gun_b Fulgurator_Rifle Fulgurator_Rifle 1  drylander_gun_b 0  6357009 555930353664 365 131082 6.000000 100 0 0 99 0 0 53 183 0 1 304 0
  0
-0
+1
+-51.000000  4 600 1 1152921504606847102 720 2 1 27 721 2 1 36 1969 3 1008806316530991133 1 15 
 
  itm_kilt_blue Kilt Kilt 1  kilt_db 0  536940302 0 174 0 1.250000 100 0 20 10 0 0 0 0 0 0 0 0
  0
@@ -3886,27 +3889,27 @@ itemsfile version 3
  0
 0
 
- itm_arazthor_greaves Arazthor_Greaves Arazthor_Greaves 1  arazthor_greaves 0  69390 0 853 704643236 2.750000 100 0 0 24 0 0 0 0 0 0 0 0
+ itm_arazthor_greaves Heavy_Plated_Waraji Heavy_Plated_Waraji 1  platedwaraji 0  69390 0 853 704643236 2.750000 100 0 0 24 0 0 0 0 0 0 0 0
  0
 0
 
- itm_arazthor_noble_armor_a Arazthor_Noble's_Armor Arazthor_Noble's_Armor 1  arazthor_noble_armor_a 0  16842765 0 1259 704643236 18.000000 100 0 42 22 0 0 0 0 0 0 0 0
+ itm_arazthor_noble_armor_a Okranite_Blessed_Armor Okranite_Blessed_Armors 1  longmail_blackc 0  16842765 0 1259 704643236 18.000000 100 0 42 22 0 0 0 0 0 0 0 0
  0
 0
 
- itm_arazthor_noble_armor_b Arazthor_Noble's_Armor Arazthor_Noble's_Armor 1  arazthor_noble_armor_b 0  16842765 0 1259 704643236 18.000000 100 0 42 22 0 0 0 0 0 0 0 0
+ itm_arazthor_noble_armor_b Paladin's_Chainmail Paladin's_Chainmail 1  copy_rich_shirt_green 0  16842765 0 1259 704643236 18.000000 100 0 42 22 0 0 0 0 0 0 0 0
  0
 0
 
- itm_arazthor_noble_armor_c Arazthor_Noble's_Armor Arazthor_Noble's_Armor 1  arazthor_noble_armor_c 0  16842765 0 1259 704643236 18.000000 100 0 42 22 0 0 0 0 0 0 0 0
+ itm_arazthor_noble_armor_c Okranite_Chainmail_and_Tabard Okranite_Chainmail_and_Tabards 1  hollow_guard 0  16842765 0 1259 704643236 18.000000 100 0 42 22 0 0 0 0 0 0 0 0
  0
 0
 
- itm_arazthor_noble_armor_d Arazthor_Noble's_Armor Arazthor_Noble's_Armor 1  arazthor_noble_armor_d 0  16842765 0 1259 704643236 18.000000 100 0 42 22 0 0 0 0 0 0 0 0
+ itm_arazthor_noble_armor_d Armor_of_Stigmata Armor_of_Stigmata 1  stromkirk_haunt 0  16842765 0 1259 704643236 18.000000 100 0 42 22 0 0 0 0 0 0 0 0
  0
 0
 
- itm_arazthor_noble_armor_e Arazthor_Noble's_Armor Arazthor_Noble's_Armor 1  arazthor_noble_armor_e 0  16842765 0 1259 704643236 18.000000 100 0 42 22 0 0 0 0 0 0 0 0
+ itm_arazthor_noble_armor_e Armor_of_Mercy Armor_of_Mercy 1  copy_hollow_guard 0  16842765 0 1259 704643236 18.000000 100 0 42 22 0 0 0 0 0 0 0 0
  0
 0
 
@@ -3914,31 +3917,31 @@ itemsfile version 3
  0
 0
 
- itm_arazthor_noble_helm_za Arazthor_Noble's_Helmet Arazthor_Noble's_Helmet 1  arazthor_noble_helm_za 0  1073807372 0 895 704643238 1.750000 100 40 0 0 0 0 0 0 0 0 0 0
+ itm_arazthor_noble_helm_za Thorn_of_Okran Thorns_of_Okran 1  WAIWAI 0  1073807372 0 895 704643238 1.750000 100 40 0 0 0 0 0 0 0 0 0 0
  0
 0
 
- itm_arazthor_noble_helm_zb Arazthor_Noble's_Helmet Arazthor_Noble's_Helmet 1  arazthor_noble_helm_zb 0  1073807372 0 895 704643238 1.750000 100 40 0 0 0 0 0 0 0 0 0 0
+ itm_arazthor_noble_helm_zb Bucket_Zukin Bucket_Zukin 1  flat_helmet 0  1073807372 0 895 704643238 1.750000 100 40 0 0 0 0 0 0 0 0 0 0
  0
 0
 
- itm_arazthor_noble_helm_zbb Arazthor_Noble's_Helmet Arazthor_Noble's_Helmet 1  arazthor_noble_helm_zbb 0  1073807372 0 895 704643238 1.750000 100 40 0 0 0 0 0 0 0 0 0 0
+ itm_arazthor_noble_helm_zbb Penitent_Silence Penitent_Silence 1  flatomasko 0  1073807372 0 895 704643238 1.750000 100 40 0 0 0 0 0 0 0 0 0 0
  0
 0
 
- itm_arazthor_noble_helm_zbc Arazthor_Noble's_Helmet Arazthor_Noble's_Helmet 1  arazthor_noble_helm_zbc 0  1073807372 0 895 704643238 1.750000 100 40 0 0 0 0 0 0 0 0 0 0
+ itm_arazthor_noble_helm_zbc Devotion_of_Okran Devotion_of_Okran 1  arazthor_noble_helm_zbc 0  69793284108 0 895 704643238 1.750000 100 40 0 0 0 0 0 0 0 0 0 0
  0
 0
 
- itm_arazthor_noble_helm_zbd Arazthor_Noble's_Helmet Arazthor_Noble's_Helmet 1  arazthor_noble_helm_zbd 0  1073807372 0 895 704643238 1.750000 100 40 0 0 0 0 0 0 0 0 0 0
+ itm_arazthor_noble_helm_zbd Okranite_Crested_Zukin Okranite_Crested_Zukin 1  arazthor_noble_helm_zbd 0  1073807372 0 895 704643238 1.750000 100 40 0 0 0 0 0 0 0 0 0 0
  0
 0
 
- itm_arazthor_noble_helm_zc Arazthor_Noble's_Helmet Arazthor_Noble's_Helmet 1  arazthor_noble_helm_zc 0  1073807372 0 895 704643238 1.750000 100 40 0 0 0 0 0 0 0 0 0 0
+ itm_arazthor_noble_helm_zc Inquisitor's_Holy_Helmet Inquisitor's_Holy_Helmets 1  arazthor_noble_helm_zc 0  1073807372 0 895 704643238 1.750000 100 40 0 0 0 0 0 0 0 0 0 0
  0
 0
 
- itm_arazthor_noble_helm_zd Arazthor_Noble's_Helmet Arazthor_Noble's_Helmet 1  arazthor_noble_helm_zd 0  1073807372 0 895 704643238 1.750000 100 40 0 0 0 0 0 0 0 0 0 0
+ itm_arazthor_noble_helm_zd Inquisitor_Holy_Sandogasa Inquisitor_Holy_Sandogasa 1  holyhelmeto 0  1073807372 0 895 704643238 1.750000 100 40 0 0 0 0 0 0 0 0 0 0
  0
 0
 
@@ -3950,7 +3953,7 @@ itemsfile version 3
  0
 0
 
- itm_arazthor_noble_helm_zg Arazthor_Noble's_Helmet Arazthor_Noble's_Helmet 1  arazthor_noble_helm_zg 0  1073807372 0 895 704643238 1.750000 100 40 0 0 0 0 0 0 0 0 0 0
+ itm_arazthor_noble_helm_zg Nails_of_Okran Nails_of_Okran 1  arazthor_noble_helm_zd 0  69793284108 0 895 704643238 1.750000 100 40 0 0 0 0 0 0 0 0 0 0
  0
 0
 
@@ -3966,31 +3969,31 @@ itemsfile version 3
  0
 0
 
- itm_celadun_noble_armor_a Celadun_Noble's_Armor Celadun_Noble's_Armor 1  celadun_noble_armor_a 0  16842765 0 1450 704643236 19.000000 100 0 44 22 0 0 0 0 0 0 0 0
+ itm_celadun_noble_armor_a Kenpei_Inspector's_Uniform Kenpei_Inspector_Uniforms 1  us_gen 0  16842765 0 1450 704643236 19.000000 100 0 44 22 0 0 0 0 0 0 0 0
  0
 0
 
- itm_celadun_noble_armor_b Celadun_Noble's_Armor Celadun_Noble's_Armor 1  celadun_noble_armor_b 0  16842765 0 1450 704643236 19.000000 100 0 44 22 0 0 0 0 0 0 0 0
+ itm_celadun_noble_armor_b Munzo_Captain's_Haori Munzo_Captain's_Haori 1  newhakama4 0  16842765 0 1450 704643236 19.000000 100 0 44 22 0 0 0 0 0 0 0 0
  0
 0
 
- itm_celadun_noble_armor_c Celadun_Noble's_Armor Celadun_Noble's_Armor 1  celadun_noble_armor_c 0  16842765 0 1450 704643236 19.000000 100 0 44 22 0 0 0 0 0 0 0 0
+ itm_celadun_noble_armor_c High_Command_Trench_Coat High_Command_Trench_Coat 1  munzotrenchcoat 0  16842765 0 1450 704643236 19.000000 100 0 44 22 0 0 0 0 0 0 0 0
  0
 0
 
- itm_celadun_noble_armor_d Celadun_Noble's_Armor Celadun_Noble's_Armor 1  celadun_noble_armor_d 0  16842765 0 1450 704643236 19.000000 100 0 44 22 0 0 0 0 0 0 0 0
+ itm_celadun_noble_armor_d Deputy_Officer_Uniform Deputy_Officer_Uniforms 1  munzoinfantryofficer 0  16842765 0 1450 704643236 19.000000 100 0 44 22 0 0 0 0 0 0 0 0
  0
 0
 
- itm_celadun_noble_armor_e Celadun_Noble's_Armor Celadun_Noble's_Armor 1  celadun_noble_armor_e 0  16842765 0 1450 704643236 19.000000 100 0 44 22 0 0 0 0 0 0 0 0
+ itm_celadun_noble_armor_e Munzo_Squad_Cpt_Uniform Munzo_Squad_Cpt_Uniforms 1  munzoinfantryofficer 0  16842765 0 1450 704643236 19.000000 100 0 44 22 0 0 0 0 0 0 0 0
  0
 0
 
- itm_celadun_noble_helm_a Celadun_Noble's_Helmet Celadun_Noble's_Helmet 1  celadun_noble_helm_a 0  1073807372 0 895 704643238 1.750000 100 40 0 0 0 0 0 0 0 0 0 0
+ itm_celadun_noble_helm_a Munzo_Officer_Hat Munzo_Officer_Hats 1  confederate_captain_hat 0  1073807372 0 895 704643238 1.750000 100 40 0 0 0 0 0 0 0 0 0 0
  0
 0
 
- itm_celadun_noble_helm_b Celadun_Noble's_Helmet Celadun_Noble's_Helmet 1  celadun_noble_helm_b 0  1073807372 0 895 704643238 1.750000 100 40 0 0 0 0 0 0 0 0 0 0
+ itm_celadun_noble_helm_b Republican_Officer's_Jingasa Republican_Officer's_Jingasa 1  jing_r_off_1 0  1073807372 0 895 704643238 1.750000 100 40 0 0 0 0 0 0 0 0 0 0
  0
 0
 
@@ -4022,7 +4025,7 @@ itemsfile version 3
  0
 0
 
- itm_dendaeron_noble_armor_a Dendaeron_Noble's_Armor Dendaeron_Noble's_Armor 1  dendaeron_noble_armor_a 0  16842765 0 1450 704643236 17.000000 100 0 44 16 0 0 0 0 0 0 0 0
+ itm_dendaeron_noble_armor_a Shek_Warlord_Plate Shek_Warlord_Plates 1  shekcommander 0  16842765 0 1450 704643236 17.000000 100 0 44 16 0 0 0 0 0 0 0 0
  0
 0
 
@@ -4034,7 +4037,7 @@ itemsfile version 3
  0
 0
 
- itm_dendaeron_noble_helm_a Dendaeron_Noble's_Helmet Dendaeron_Noble's_Helmet 1  dendaeron_noble_helm_a 0  1073807372 0 895 704643238 1.750000 100 40 0 0 0 0 0 0 0 0 0 0
+ itm_dendaeron_noble_helm_a Shek_Warhelm Shek_Warhelms 1  helmetshek 0  3221291020 0 895 704643238 1.750000 100 40 0 0 0 0 0 0 0 0 0 0
  0
 0
 
@@ -4118,11 +4121,11 @@ itemsfile version 3
  0
 0
 
- itm_sarkon_noble_armor_a Sarkon_Noble's_Armor Sarkon_Noble's_Armor 1  sarkon_noble_armor_a 0  16842765 0 1450 704643236 17.000000 100 0 44 16 0 0 0 0 0 0 0 0
+ itm_sarkon_noble_armor_a Akazonae_Gusoku Akazonae_Gusoku 1  #grayscale_sabe3-1_d 0  16842765 0 1450 704643236 17.000000 100 0 44 16 0 0 0 0 0 0 0 0
  0
 0
 
- itm_sarkon_noble_armor_b Sarkon_Noble's_Armor Sarkon_Noble's_Armor 1  sarkon_noble_armor_a 0  16842765 0 1450 704643236 17.000000 100 0 44 16 0 0 0 0 0 0 0 0
+ itm_sarkon_noble_armor_b Akazonae_Yoroi Akazonae_Yoroi 1  #grayscale_sabe3-1_d3 0  16842765 0 1450 704643236 17.000000 100 0 44 16 0 0 0 0 0 0 0 0
  0
 0
 
@@ -4138,11 +4141,11 @@ itemsfile version 3
  0
 0
 
- itm_sarkondar_noble_helm_a Eshkor_Noble's_Helmet Eshkor_Noble's_Helmet 1  sarkondar_noble_helm_a 0  1073807372 0 895 704643238 1.750000 100 40 0 0 0 0 0 0 0 0 0 0
+ itm_sarkondar_noble_helm_a Akazonae_Jingasa Akazonae_Jingasa 1  HaikouK03 0  69793284108 0 895 704643238 1.750000 100 40 0 0 0 0 0 0 0 0 0 0
  0
 0
 
- itm_sarkondar_noble_helm_b Eshkor_Noble's_Helmet Eshkor_Noble's_Helmet 1  sarkondar_noble_helm_b 0  1073807372 0 895 704643238 1.750000 100 40 0 0 0 0 0 0 0 0 0 0
+ itm_sarkondar_noble_helm_b Akazonae_Helmet Akazonae_Helmet 1  guards_helm 0  1073807372 0 895 704643238 1.750000 100 40 0 0 0 0 0 0 0 0 0 0
  0
 0
 
@@ -4286,7 +4289,7 @@ itemsfile version 3
  0
 0
 
- itm_xavaris_noble_armor_a Xavaris_Noble's_Armor Xavaris_Noble's_Armor 1  xavaris_noble_armor_a 0  16842765 0 1295 704643236 18.000000 100 0 44 16 0 0 0 0 0 0 0 0
+ itm_xavaris_noble_armor_a Empire_Noble's_Armor Empire_Noble's_Armor 1  eastern_heavy_armor_2 0  16842765 0 1295 704643236 18.000000 100 0 44 16 0 0 0 0 0 0 0 0
  0
 0
 
@@ -4310,11 +4313,11 @@ itemsfile version 3
  0
 0
 
- itm_xavaris_noble_helm_a Xavaris_Noble's_Helmet Xavaris_Noble's_Helmet 1  xavaris_noble_helm_a 0  1073807372 0 895 704643238 1.750000 100 40 0 0 0 0 0 0 0 0 0 0
+ itm_xavaris_noble_helm_a UC_Daimyo_Kabuto UC_Daimyo_Kabuto 1  copy_casque_samurai02 0  69793284108 0 895 704643238 1.750000 100 40 0 0 0 0 0 0 0 0 0 0
  0
 0
 
- itm_xavaris_noble_helm_b Xavaris_Noble's_Helmet Xavaris_Noble's_Helmet 1  xavaris_noble_helm_b 0  1073807372 0 895 704643238 1.750000 100 40 0 0 0 0 0 0 0 0 0 0
+ itm_xavaris_noble_helm_b Samurai_Captain_Kabuto Samurai_Captain_Kabutos 1  samuraiharumeto 0  69793287948 0 895 704643238 1.750000 100 40 0 0 0 0 0 0 0 0 0 0
  0
 0
 
@@ -4326,7 +4329,7 @@ itemsfile version 3
  0
 0
 
- itm_xavaris_noble_helm_e Xavaris_Noble's_Helmet Xavaris_Noble's_Helmet 1  xavaris_noble_helm_e 0  1073807372 0 895 704643238 1.750000 100 40 0 0 0 0 0 0 0 0 0 0
+ itm_xavaris_noble_helm_e Noble_Masked_Helmet Noble_Masked_Helmet 1  xavaris_noble_helm_e 0  69793287948 0 895 704643238 1.750000 100 40 0 0 0 0 0 0 0 0 0 0
  0
 0
 
@@ -4416,7 +4419,8 @@ itemsfile version 3
 
  itm_ray_musket_c Fulgurator_Rifle Fulgurator_Rifle 1  ray_jezail_a 0  541130769 549756338176 1450 0 2.000000 20 0 0 99 0 0 40 170 0 1 301 0
  0
-0
+1
+-51.000000  4 600 1 1152921504606847102 720 2 1 27 721 2 1 36 1969 3 1008806316530991133 1 15 
 
  itm_ray_musket_c_m Fulgurator_Rifle_Bayonet Fulgurator_Rifle_Bayonet 1  ray_jezail_a 0  4198404 4222124851986688 1450 8202 1.500000 100 0 0 0 0 0 100 0 151 0 301 0
  0
@@ -4428,11 +4432,13 @@ itemsfile version 3
 
  itm_ray_musket_e Fulgurator_Rifle Fulgurator_Rifle 1  arquebus_a 0  6357009 555930353664 365 131082 6.000000 45 0 0 96 0 0 45 183 0 1 288 0
  0
-0
+1
+-51.000000  4 600 1 1152921504606847102 720 2 1 27 721 2 1 36 1969 3 1008806316530991133 1 15 
 
  itm_ray_musket_f Fulgurator_Rifle Fulgurator_Rifle 1  arquebus_a 0  6357009 555930353664 365 131082 6.000000 45 0 0 96 0 0 45 183 0 1 288 0
  0
-0
+1
+-51.000000  4 600 1 1152921504606847102 720 2 1 27 721 2 1 36 1969 3 1008806316530991133 1 15 
 
  itm_gozonn_mauler Gozonn_Mace Gozonn_Mace 1  ball_mace_2h 0  287769165827 4222124650663424 384 8202 4.500000 100 0 0 0 0 0 100 0 91 0 512 557
  0
@@ -4474,7 +4480,7 @@ itemsfile version 3
  0
 0
 
- itm_cydonian_uniform Cydonian_Knight_Uniform Cydonian_Knight_Uniforms 1  it_praet 0  21037069 0 695 704643236 15.000000 100 0 38 16 0 0 0 0 0 0 0 0
+ itm_cydonian_uniform Iron_Sutra_Coat Iron_Sutra_Coats 1  khergit_army_one 0  21037069 0 695 704643236 15.000000 100 0 27 11 0 0 0 0 0 0 0 0
  0
 0
 
@@ -4486,7 +4492,7 @@ itemsfile version 3
  0
 0
 
- itm_cydonian_kuhnight Cydonian_Solarian_Chestplate Cydonian_Solarian_Chestplates 1  gr_grenadier_armor 0  21037069 0 695 704643236 15.000000 100 0 38 16 0 0 0 0 0 0 0 0
+ itm_cydonian_kuhnight Iron_Sutra_Boxer_Uniform Iron_Sutra_Boxer_Uniforms 1  wb_8ra_med_uniform_blue 0  21037069 0 695 704643236 15.000000 100 0 23 8 0 0 0 0 0 0 0 0
  0
 0
 
@@ -4494,7 +4500,7 @@ itemsfile version 3
  0
 0
 
- itm_cydonian_centur Cydonian_Centurial_Coat Cydonian_Centurial_Coats 1  pol_storm 0  29425677 0 695 704643236 15.000000 100 0 38 16 0 0 0 0 0 0 0 0
+ itm_cydonian_centur Iron_Sutra_Uniform Iron_Sutra_Uniforms 1  wb_n4a_uniform 0  29425677 0 695 704643236 15.000000 100 0 21 8 0 0 0 0 0 0 0 0
  0
 0
 
@@ -4530,7 +4536,7 @@ itemsfile version 3
  0
 0
 
- itm_invisi_boo Transpareant_Boot Transpareant_Boot 1  dummy_mesh 0  536878862 0 75 123731968 1.000000 100 0 0 12 0 0 0 0 0 0 0 0
+ itm_invisi_boo Transpareant_Boot Transpareant_Boot 1  dummy_mesh 0  536944398 0 75 123731968 1.000000 100 0 0 12 0 0 0 0 0 0 0 0
  0
 0
 
@@ -4638,7 +4644,7 @@ itemsfile version 3
  0
 0
 
- itm_wandered_straw_hat Kasa_Straw_Hat Kasa_Straw_Hats 1  flat_kasa 0  536875020 0 9 123731968 1.000000 100 8 0 0 0 0 0 0 0 0 0 0
+ itm_wandered_straw_hat Kasa_Straw_Hat Kasa_Straw_Hats 1  flat_kasa 0  536940556 0 9 123731968 1.000000 100 8 0 0 0 0 0 0 0 0 0 0
  0
 0
 
@@ -4646,7 +4652,7 @@ itemsfile version 3
  0
 0
 
- itm_farmer_sandals Farmer_Sandals Farmer_Sandals 1  necklace_test 0  3854 0 465 123731968 1.000000 100 0 0 7 0 0 0 0 0 0 0 0
+ itm_farmer_sandals Farmer_Sandals Farmer_Sandals 1  necklace_test 0  69390 0 465 123731968 1.000000 100 0 0 7 0 0 0 0 0 0 0 0
  0
 0
 
@@ -4658,11 +4664,11 @@ itemsfile version 3
  0
 0
 
- itm_samurai_kote Samurai_Kote Samurai_Kotes 1  gf_tekko_nao_L 0  4111 0 90 0 0.250000 120 0 10 0 0 0 0 0 0 0 0 0
+ itm_samurai_kote Samurai_Kote Samurai_Kotes 1  gf_tekko_nao_L 0  69647 0 90 0 0.250000 120 0 10 0 0 0 0 0 0 0 0 0
  0
 0
 
- itm_geta_sandals Geta_Sandals Geta_Sandals 1  suguroku_geta1 0  3854 0 465 123731968 1.000000 100 0 0 9 0 0 0 0 0 0 0 0
+ itm_geta_sandals Geta_Sandals Geta_Sandals 1  suguroku_geta1 0  69390 0 465 123731968 1.000000 100 0 0 9 0 0 0 0 0 0 0 0
  0
 0
 
@@ -4702,7 +4708,7 @@ itemsfile version 3
  0
 0
 
- itm_uc_samurai_iron_boo UC_Iron_Greaves UC_Iron_Greaves 1  ronin_boots1 0  3854 0 254 123731968 1.000000 100 5 0 31 0 0 0 0 0 0 0 0
+ itm_uc_samurai_iron_boo UC_Iron_Greaves UC_Iron_Greaves 1  ronin_boots1 0  69390 0 254 123731968 1.000000 100 5 0 31 0 0 0 0 0 0 0 0
  0
 0
 
@@ -4822,7 +4828,7 @@ itemsfile version 3
  0
 0
 
- itm_united_cities_hakama United_Cities_Hakama United_Cities_Hakama 1  sam_general 0  553648141 0 348 123731968 4.000000 100 0 14 10 0 0 0 0 0 0 0 0
+ itm_united_cities_hakama United_Cities_Hakama United_Cities_Hakama 1  sam_general 0  553713677 0 6348 123731968 4.000000 100 0 14 10 0 0 0 0 0 0 0 0
  0
 0
 
@@ -4886,7 +4892,7 @@ itemsfile version 3
  0
 0
 
- itm_scorchlander_geta_sandals Geta_Sandals Geta_Sandals 1  copy_suguroku_geta1 0  3854 0 465 123731968 1.000000 100 0 0 9 0 0 0 0 0 0 0 0
+ itm_scorchlander_geta_sandals Geta_Sandals Geta_Sandals 1  copy_suguroku_geta1 0  69390 0 465 123731968 1.000000 100 0 0 9 0 0 0 0 0 0 0 0
  0
 0
 
@@ -5096,7 +5102,7 @@ itemsfile version 3
  0
 0
 
- itm_fezuwrap Desert_Facewrap Desert_Facewraps 1  feisuwrap 0  69810061324 0 895 704643238 1.750000 100 35 3 0 0 0 0 0 0 0 0 0
+ itm_fezuwrap Desert_Facewrap Desert_Facewraps 1  feisuwrap 0  69810061324 0 895 719323264 1.750000 100 10 3 0 0 0 0 0 0 0 0 0
  0
 0
 
@@ -5120,7 +5126,7 @@ itemsfile version 3
  0
 0
 
- itm_holy_maskud Holy_Masked_Helmet Holy_Masked_Helmets 1  helm_katusenB 0  1073741836 0 895 704643238 1.750000 100 69 15 0 0 0 0 0 0 0 0 0
+ itm_holy_maskud Holy_Masked_Helmet Holy_Masked_Helmets 1  helm_katusenB 0  1614811148 0 895 704643238 1.750000 100 69 15 0 0 0 0 0 0 0 0 0
  0
 0
 
@@ -6029,7 +6035,7 @@ itemsfile version 3
  0
 0
 
- itm_black_dragon_lamellar Black_Dragon_Lamellar Black_Dragon_Lamellars 1  r_ljj 0  16842765 0 1259 704643236 18.000000 100 0 23 11 0 0 0 0 0 0 0 0
+ itm_black_dragon_lamellar Black_Dragon_Lamellar Black_Dragon_Lamellars 1  r_ljj 0  16842765 0 1259 704643236 18.000000 100 0 33 15 0 0 0 0 0 0 0 0
  0
 0
 
@@ -6061,7 +6067,7 @@ itemsfile version 3
  0
 0
 
- itm_white_eyebrow_nongming White_Eyebrow_Nongmin White_Eyebrow_Nongmins 1  nong_min 0  553717773 0 270 123731968 5.000000 100 0 13 5 0 0 0 0 0 0 0 0
+ itm_white_eyebrow_nongming White_Eyebrow_Nongmin White_Eyebrow_Nongmins 1  nong_min 0  553713677 0 2270 123731968 5.000000 100 0 13 5 0 0 0 0 0 0 0 0
  0
 0
 
@@ -6121,7 +6127,7 @@ itemsfile version 3
  0
 0
 
- itm_slavae_rags Slave_Rags Slave_Rags 1  sack_shirt 0  536936461 0 3 123731968 7.000000 100 0 3 3 0 0 0 0 0 0 0 0
+ itm_slavae_rags Slave_Rags Slave_Rags 1  sack_shirt 0  553713677 0 3 123731968 7.000000 100 0 3 3 0 0 0 0 0 0 0 0
  0
 0
 
@@ -6347,6 +6353,1434 @@ itemsfile version 3
 0
 
  itm_ninja_merchant_outfit Trade_Ninja_Outfit Trade_Ninja_Outfit 1  podriatradeninja 0  553713677 0 6 123731968 1.000000 100 0 15 8 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_straw_hiyokeboshi Straw_Hiyokeboshi Straw_Hiyokeboshis 1  Strawhatobli1 0  1610678284 0 8 123731968 1.000000 100 23 1 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_dusty_hakama Dusty_Hakama Dusty_Hakamas 1  dustyhakama 0  553713677 0 331 123731968 2.000000 70 0 11 6 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_noble_hakama Noble_Hakama Noble_Hakamas 1  noblehakama 0  553648141 0 348 123731968 4.000000 100 0 15 12 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_moon_cleaver Moon_Cleaver Moon_Cleavers 1  zangetsu 0  6361091 9223635924234010848 524 155668 3.000000 100 0 0 0 11 0 78 0 166 0 256 48
+ 0
+0
+
+ itm_bandit_bogu Bandit_Bogu Bandit_Bogu 1  bogu 0  553713677 0 331 123731974 2.000000 70 0 28 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_bandit_bogu_scorchland Scorchlander_Bandit_Bogu chlander_Bandit_Bogus 1  banditboguscorch 0  553713677 0 331 123731974 2.000000 70 0 28 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_rusty_momonari_kabuto Rusty_Momonari_Kabuto ItemPl 1  momonari 0  1073807372 0 895 704643234 1.750000 100 23 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_postap_men Rustic_Men_Helmet Rustic_Men_Helmets 1  11725_helmet_v1_l2 0  1073807372 0 895 704643234 1.750000 100 31 5 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_banditboguhakama Bandit_Bogu_and_Hakama Bandit_Bogu_and_Hakama 1  longbogu 0  553713677 0 331 123731974 2.000000 70 0 28 7 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_onnabushi_bogu Bandit_Bogu_and_Hakama_(F) Bandit_Bogu_and_Hakama_(F) 1  onnabushibanditbogu 0  553713677 0 331 123731974 2.000000 70 0 28 7 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_chain_kote_suit Kusari_Katabira_and_Cloak Kusari_Katabira_and_Cloaks 1  chainmailkotesuit 0  553652237 0 1400 704643236 19.000000 100 0 40 14 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_mail_kusari_hachigane Kusari_Hachigane Kusari_Hachiganes 1  koteheadwrap3 0  73484 0 2150 704643236 1.250000 100 24 4 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_female_leather_armor Female_Leather_Outfit Female_Leather_Outfits 1  zann_armor_3_fem 0  16781325 0 690 704643236 14.000000 100 0 36 10 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_mugenjawrap Shugenja_Headwrap Shugenja_Headwraps 1  shugenjawrap 0  71403900684 0 15 123731968 1.000000 45 24 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_blademaster_chainmail Blademaster_Chainmail Blademaster_Chainmail 1  blademaster_armor_chainmail 0  16781325 0 1040 704643236 19.000000 100 0 37 12 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_caomaogooglesphilie Caomao_Hat_and_Goggles Caomao_Hat_and_Goggles 1  caomaogoggles 0  553717772 0 9 123731968 1.000000 100 7 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_cannibal_meatlord_armor Meat_Lord_Armor Meat_Lord_Armors 1  cannibalpesado 0  16842765 0 1259 704643236 18.000000 100 3 35 7 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_guanyu Guan Guan 1  guan 0  1080299524 4222124851990272 352 8202 4.500000 100 0 0 0 0 0 85 0 160 0 277 39
+ 0
+0
+
+ itm_bamboo_pamashield Bamboo_Pama Bamboo_Pama 1  bamboo_pamashield 0  331783 4831838208 275 167772194 3.000000 100 0 17 0 0 260 90 70 36 0 0 0
+ 0
+0
+
+ itm_scrap_jingasa_and_chain_coif Jingasa_and_Chainmail_Coif Jingasas_and_Chainmail_Coifs 1  chaingasa 0  70330155020 0 900 117440660 1.000000 100 24 3 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_blunderhandgun Blunderbuss Blunderbuss 1  handgun 0  6357009 6174539776 1300 0 2.000000 5 0 0 80 0 0 45 200 0 10 311 0
+ 0
+1
+-51.000000  4 600 1 1152921504606847102 720 2 1 27 721 2 1 36 1969 3 1008806316530991133 1 15 
+
+ itm_rusted_kama Rusted_Kama Rusted_Kamas 1  gekokujo_kama_2 0  4259842 9223388529822793742 70 0 1.250000 100 0 0 0 0 0 100 0 60 0 256 19
+ 0
+0
+
+ itm_silver_zhangdao Silver_Zhangdao Silver_Zhangdaos 1  zhangdao 0  6361092 9223635925911735344 3333 155668 3.000000 9 0 0 0 11 0 84 0 145 0 293 47
+ 0
+0
+
+ itm_chu_ko_nu Chu_Ko_Nu Chu_Ko_Nu 1  xenoargh_chu_ko_nu 0  7344137 5637160960 683 131082 3.750000 100 0 0 0 10 0 75 91 0 1 319 0
+ 0
+0
+
+ itm_nagamaki Rusted_Nagamaki Rusted_Nagamakis 1  mackie_nagamaki 0  6291460 9223635924234010848 920 262164 3.500000 100 0 0 0 11 0 77 0 145 0 256 43
+ 0
+0
+
+ itm_scrap_kabuto Kabuto_Gas_Mask Kabuto_Gas_Mask 1  jp_gasmask 0  12 0 824 704643238 2.000000 100 38 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_cult_cage_hood Cage_Hood Cage_Hood 1  almogavar_helmet_a 0  536936460 0 15 123731968 1.000000 45 24 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_raggedy_robes Sack_Robes Sack_Robes 1  KLblaw_combined1 0  553648141 0 25 123731968 2.000000 100 0 19 8 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_raggedy_hood Ragged_Hood Ragged_Hoods 1  KLblaw_combined 0  536870924 0 35 119537664 1.250000 100 14 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_bastardgasa Roningasa Roningasa 1  bastardgasa 0  536940556 0 9 123731968 1.000000 100 17 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_assasin_sica Assassin_Sica Assassin_Sicas 1  C_dbbsxv_minyaod_dao 0  4259842 9223388534117761039 225 24596 1.250000 100 0 0 0 0 0 133 0 90 0 273 25
+ 0
+0
+
+ itm_mugenja_lamellar Shugenja_Lamellar_Armor Shugenja_Lamellar_Armors 1  mugenjalamellar 0  553652237 0 970 123731968 18.000000 100 0 27 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_warajiumbrella Waraji_and_Parasol Waraji_and_Parasols 1  Shubao 0  3854 0 465 123731968 1.000000 100 2 5 9 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_zhanmabardiche Heavy_Horse_Chopper Heavy_Horse_Choppers 1  zhanmabardiche 0  34433466372 4222124851990272 3000 262164 4.750000 100 0 0 0 11 0 89 0 140 0 273 48
+ 0
+0
+
+ itm_veiled_gasa Veiled_Sugegasa Veiled_Sugegasa 1  sam_wom_travel 0  1610616844 0 10 123731968 0.500000 100 4 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_tetsu_toppaijingasa Tetsu_Toppai_Jingasa Tetsu_Toppai_Jingasa 1  tetsutoppai 0  536936460 0 800 123731968 1.000000 100 28 4 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_changpao Changpao Changpao 1  Changpao01 0  553713677 0 348 123731968 4.000000 100 0 3 3 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_guild_haori Guild_Master_Haori Guild_Master_Haoris 1  Haikou03 0  553713677 0 348 123731968 4.000000 100 0 16 4 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_getaumbrella Geta_and_Parasol Geta_and_Parasol 1  Muji02 0  69390 0 465 123731968 1.000000 100 2 5 9 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_brown_geta_sandals Geta_Sandals Geta_Sandals 1  Muji01 0  69390 0 465 123731968 1.000000 100 0 0 9 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_afrosamurai_haori Afro_Samurai_Haori Afro_Samurai_Haoris 1  copy_costumetrig 0  553652237 0 270 123731968 5.000000 100 0 25 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_paisanooutfit Peon_Outfit Peon_Outfits 1  paisanooutfit 0  553713677 0 25 704643236 2.000000 70 0 4 2 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_wickercaomao Wicker_Caomao Wicker_Caomaos 1  caomao2 0  536936460 0 9 123731968 1.000000 100 10 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_straw_qigai Saruk_Hat Saruk_Hats 1  Qigai 0  536936460 0 9 123731968 1.000000 100 10 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_xiake Veiled_Xiake Veiled_Xiake 1  xiake 0  536936460 0 9 123731968 1.000000 100 10 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_wrappedgetabrella Wrapped_Geta_and_Parasol Wrapped_Geta_and_Parasol 1  getabrella 0  69390 0 465 123731968 1.000000 100 2 5 9 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_footwraps_and_geta Footwraps_and_Geta Footwraps_and_Geta 1  getawrappings 0  69390 0 465 123731968 1.000000 100 0 0 11 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_hidden_spear Rebel_Spear Rebel_Spears 1  Langxian 0  1212420100 4222124851990272 80 8202 2.000000 100 0 0 0 0 0 88 0 200 0 276 527
+ 0
+0
+
+ itm_traders_guild_banner Traders_Guild_Banner Traders_Guild_Banners 1  gekokujo_sandal_02 0  65550 0 465 123731968 1.000000 100 0 3 7 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_heavy_steel_jingasa Heavy_Steel_Jingasa Heavy_Steel_Jingasas 1  HaikouK01 0  68719546380 0 2456 704643238 2.500000 100 35 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_holyseal Holy_Seal Holy_Seals 1  holyseal 0  1073807372 0 895 704643238 1.750000 100 33 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_leather_jerkin(F) Leather_Jerkin(F) Leather_Jerkins(F) 1  fem_leather_jerkin 0  553652237 0 321 123731968 6.000000 100 0 23 6 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_visored_spikehelm Visored_Iron_Helmet Visored_Iron_Helmets 1  Helm_Visored01 0  1073807372 0 495 704643238 1.750000 100 41 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_leather_tabard Leather_Tabard Leather_Tabards 1  villains_tabard 0  553713677 0 348 123731968 4.000000 100 0 23 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_kendoka_lord Warlord_Bogu Warlord_Bogu 1  postapkendoka 0  70867025933 0 1259 704643236 18.000000 100 3 33 25 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_tribal_shirt Nomad_Shirt Nomad_Shirts 1  tribal_shirt 0  553713677 0 348 123731968 4.000000 100 0 14 10 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_kunomediumarmor Leather_and_Chainmail_Armor(F) Leather_and_Chainmail_Armors(F) 1  kunomediumarmor 0  16842765 0 1259 704643236 18.000000 100 10 30 10 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_outlaw_helmet Outlaw_Helmet Outlaw_Helmets 1  beakhelm 0  65548 0 121 704643238 1.250000 100 26 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_hiverhead Hiver_Head Hiver_Heads 1  hiverhead 0  3221225484 0 325 0 1.750000 100 20 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_okranite_dusta Okranite_Duster Okranite_Dusters 1  okranitedusta 0  553713677 0 348 123731968 4.000000 100 0 28 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_manco_hand One_Hand One_Hand 1  mano_de_manco_L 0  4111 0 90 123731968 0.250000 120 0 2 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_hunter_armor Hunter_Leather_Armor Hunter_Leather_Armors 1  nibenese_mage 0  553717773 0 3828 704643236 25.000000 100 0 52 16 8 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_desert_villagedress Nomad_Dress Nomad_Dresses 1  villajadress 0  553713677 0 500 123731968 3.000000 100 0 10 10 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_sack_hood Sack_Hood Sack_Hoods 1  capucha_saco 0  536940556 0 4 123731968 1.000000 100 8 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_roadyoroi Makeshift_Yoroi Makeshift_Yorois 1  roadsamurai 0  16842765 0 3828 704643236 25.000000 100 0 27 24 8 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_armoredmouthpiece Armored_Mouth_Plate Armored_Mouth_Plates 1  armoredmouth 0  69810061324 0 895 704643238 1.750000 100 26 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_gladiator_bindings Rusty_Armor_and_Bindings Rusty_Armors_and_Bindings 1  copy_gladiator_armor 0  16777229 0 650 704643236 16.000000 100 0 29 13 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_egungunrobe Egungun_Robes Egungun_Robes 1  ogungunrobe 0  70346870797 0 270 123731968 5.000000 100 5 28 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_scrap_yoroi Scrap_Yoroi Scrap_Yoroi 1  yoroifempostap 0  16842765 0 3828 704643236 25.000000 100 0 30 24 8 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_dunewalk_goggles Sandstorm_Goggles Sandstorm_Goggles 1  dunewalkergoggles 0  553713676 0 30 123731968 1.000000 100 8 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_slaver_helm Slaver_Helmet Slaver_Helmet 1  lobster_helm 0  65548 0 278 704643238 2.000000 100 27 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_holyman_hat Sugegasa_and_Ofuda Sugegasas_and_Ofudas 1  holykasa 0  536936460 0 9 123731968 1.000000 100 13 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_slaver_caged_helmet Slaver_Caged_Helmet Slaver_Caged_Helmet 1  lobster_mask 0  4108 0 278 704643238 2.000000 100 30 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_makeshift_suneate Makeshift_Suneate Makeshift_Suneate 1  copy_chunjia_foot 0  69390 0 465 123731968 1.000000 100 0 0 21 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_shielded_katar Reinforced_Katar Reinforced_Katars 1  Sha_Wanren_L 0  4111 0 9000 0 0.250000 100 0 33 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_white_katana White_Katana White_Katanas 2  pcangdao 0  pcangdaoq 3458764513820540928  4194307 9223635962888716543 679 24596 2.000000 100 0 0 0 9 0 108 0 95 0 274 32
+ 0
+0
+
+ itm_rogue_wakizashi Enforcer_Wakizashi Enforcer_Wakizashis 2  wjddao 0  wjddaoq 3458764513820540928  4194306 9223388573040902159 321 24596 1.250000 100 0 0 0 0 0 113 0 65 0 275 25
+ 0
+0
+
+ itm_goudao Goudao Goudaos 1  goudao2 0  34433404932 4222124851990272 660 262164 5.000000 100 0 0 0 12 0 88 0 155 0 273 50
+ 0
+0
+
+ itm_akaviri_katana Dai-Katana Dai-Katanas 2  dao_akavirilongsword 0  dao_akavirilongsword_scab 3458764513820540928  6291459 9223635958593749216 920 262164 3.500000 100 0 0 0 11 0 92 0 125 0 256 40
+ 0
+0
+
+ itm_toothpick_crossbow Toothpick_Crossbow Toothpick_Crossbows 1  txz_weapon_a03_09 0  6361097 5637160960 750 131082 2.500000 100 0 0 0 8 0 55 69 0 1 300 0
+ 0
+0
+
+ itm_mongrel_blade Mongrel_Blade Mongrel_Blades 1  orgtwohander 0  6295555 9223635924234010848 523 155668 2.750000 100 0 0 0 10 0 96 0 120 0 256 40
+ 0
+0
+
+ itm_fanyanling_gasmask Fanyangling_and_Gas_Mask Fanyangling_and_Gas_Masks 1  fanyanglinhat 0  70330159116 0 9 123731968 1.000000 100 27 5 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_wooden_mudao Mudao Mudaos 1  Mudao02 0  6684675 9223635919737716976 21 0 6.250000 100 0 0 0 0 0 94 0 128 0 536 542
+ 0
+0
+
+ itm_serrated_great_sword Serrated_Great_Sword Serrated_Great_Swords 2  Sword08 0  Scabbard08 3458764513820540928  6356995 9223635958660858096 1123 155668 2.750000 100 0 0 0 10 0 93 0 120 0 285 42
+ 0
+0
+
+ itm_raider_cleaver Raider_Cleaver Raider_Cleavers 2  Sword41elf 0  Scabbard41elf 3458764513820540928  4198403 9223635954298781951 526 155668 2.250000 100 0 0 0 9 0 97 0 105 0 283 37
+ 0
+0
+
+ itm_nomad_sabre Nomad_Sabre Nomad_Sabres 2  Txz_myd 0  Txz_mydQ 3458764513820540928  4259842 9223388564182532111 375 24596 1.250000 100 0 0 0 0 0 116 0 83 0 275 19
+ 0
+0
+
+ itm_bloodthirsty_arrow Bloodthirsty_Arrow Bloodthirsty_Arrows 3  spak_ar2 0  flying_missile 2305843009213693952  spak_ar2bag 3458764513820540928  69637 1610612736 350 4398046511112 3.000000 50 0 0 0 0 0 0 0 91 28 259 0
+ 0
+0
+
+ itm_postap_kote Scrap_Kote Scrap_Kote 1  kote_y_L 0  4111 0 910 704643236 0.900000 100 0 16 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_long_naginata Long_Naginata Long_Naginatas 1  datidao 0  1080365060 4222131026005760 352 8202 4.500000 100 0 0 0 0 0 91 0 180 0 277 39
+ 0
+0
+
+ itm_long_sickle Kama_Spear Kama_Spears 1  liandaob 0  1212485636 8725724303199744 43 8202 2.000000 100 0 0 0 0 0 97 0 190 0 256 30
+ 0
+0
+
+ itm_farmer_kama Farmer_Kama Farmer_Kamas 1  xliandao 0  4526082 9223388532775583758 280 270356 1.500000 100 0 0 0 0 0 97 0 70 0 256 287
+ 0
+0
+
+ itm_heavy_copper_pipe Heavy_Copper_Pipe Heavy_Copper_Pipes 1  Water_pipe 0  4299161602 9223388532775583758 83 262164 3.000000 100 0 0 0 0 0 97 0 70 0 256 540
+ 0
+0
+
+ itm_slaver_pith Plumed_Pith_Helmet Plumed_Pith_Helmets 1  slaverpith 0  65548 0 360 704643238 2.750000 100 38 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_Ming_qiang Niao_Chong Niao_Chong 1  Ming_qiang 0  6357009 555930353664 365 131082 6.000000 45 0 0 96 0 0 33 183 0 1 289 0
+ 0
+1
+-51.000000  4 600 1 1152921504606847102 720 2 1 27 721 2 1 36 1969 3 1008806316530991133 1 15 
+
+ itm_waistcoatdress Dress_and_Leather_Vest Dresses_and_Leather_Vests 1  sayazn_waistcoat_dress_2 0  553648141 0 500 123731968 3.000000 100 0 10 10 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_cruel_blade Cruel_Blade Cruel_Blades 1  tcw03 0  6356995 9223635924301119728 524 155668 3.000000 100 0 0 0 11 0 89 0 130 0 287 40
+ 0
+0
+
+ itm_felt_dress Felt_Dress Felt_Dresses 1  sayazn_waistcoat_dress_2 0  553648141 0 500 123731968 3.000000 100 0 10 10 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_swamper_gas_mask Swamper_Gas_Mask Swamper_Gas_Masks 1  swampermask2 0  69810061324 0 895 704643238 1.750000 100 24 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_swamper_gas_mask2 Swamper_Gas_Mask Swamper_Gas_Masks 1  swampermask 0  69810061324 0 895 704643238 1.750000 100 24 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_dusty_black_coat Dusty_Black_Coat Dusty_Black_Coats 1  dustyblackcoat 0  553713677 0 666 123731968 4.000000 100 0 31 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_slaverarmor Slaver_Iron_Armor Slaver_Iron_Armors 1  slaverarmor 0  16842765 0 690 704643236 14.000000 100 0 36 3 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_slaverplate Slaver_Plate Slaver_Plates 1  slaverplate 0  16842765 0 1300 704643236 14.000000 100 0 40 3 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_tribal_arrows Tribal_Arrows Tribal_Arrows 3  FZ_jian 0  flying_missile 2305843009213693952  FZ_jian_qiao 3458764513820540928  4101 1610612736 410 4398046511112 3.500000 30 0 0 0 0 0 0 0 95 33 259 0
+ 0
+0
+
+ itm_katana_twinblade Katana_Twinblade Katana_Twinblades 2  Dualnjbl 0  double_scythe_carry 3458764513820540928  140836868 4222131026005760 125 8202 3.000000 100 0 0 0 0 0 113 0 118 0 28 30
+ 0
+0
+
+ itm_axeman_sandal Leather_Slipper Leather_Slippers 1  axemanboot12 0  65550 0 465 123731968 1.000000 100 0 0 8 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_renzhual Bone_Claws Bone_Claws 1  renzhual 0  4367 0 90 0 0.250000 120 0 27 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_danyan_huochong Boomstick Boomsticks 1  Danyanhuochong 0  6357009 6174539776 1300 0 2.000000 5 0 0 80 0 0 39 200 0 10 311 0
+ 0
+1
+-51.000000  4 600 1 1152921504606847102 720 2 1 27 721 2 1 36 1969 3 1008806316530991133 1 15 
+
+ itm_enforcer_blade Enforcer_Blade Enforcer_Blades 2  nanbudao 0  nanbudaoq 3458764513820540928  4259842 9223635958593749247 455 24596 2.000000 100 0 0 0 0 0 130 0 102 0 289 33
+ 0
+0
+
+ itm_UC_gusoku_ashigaru Conscript_Gusoku Conscript_Gusokus 1  citiesashigaru 0  16842765 0 1259 704643236 18.000000 100 0 27 3 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_shadow_kasa Shadow_Kasa Shadow_Kasa 1  blackkasa 0  69256413196 0 800 123731968 1.000000 100 24 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_ashlander_kasa Ashlander_Kasa Ashlander_Kasa 1  ashlanderjingasa 0  536936460 0 9 123731968 1.000000 100 8 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_okranite_coat Okranite_Coat Okranite_Coats 1  okranitecoat 0  553713677 0 348 123731968 4.000000 100 0 13 3 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_black_kasa Black_Kasa Black_Kasa 1  blackkasa3 0  536936460 0 9 123731968 1.000000 100 8 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_brown_duster Brown_Duster Brown_Duster 1  leatherdostar 0  553713677 0 348 123731968 4.000000 100 0 28 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_welder_mask Iron_Plate_Mask Iron_Plate_Masks 1  wielder_mask_ms 0  68719542284 0 980 704643238 2.750000 100 30 0 0 10 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_siamese_glaive Gut_Ripper Gut_Rippers 1  dd22 0  6619140 8725730452049408 352 8202 4.500000 100 0 0 0 0 0 86 0 165 0 256 39
+ 0
+0
+
+ itm_ultra_greatsword Ultra_Greatsword_Meitou Ultra_Greatsword_Meitou 1  ChromeRazor 0  4301262851 9223652416639992046 679 24596 2.000000 100 0 0 0 9 0 100 0 73 0 256 33
+ 0
+0
+
+ itm_armored_hakama Reinforced_Haori Reinforced_Haoris 1  haoriarmor6 0  553713677 0 380 123731968 2.000000 70 0 24 6 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_shek_guardian Hundred_Guardian_Panoply Hundred_Guardian_Panoply 1  weren_body 0  16842765 0 695 704643236 15.000000 100 8 33 33 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_shek_guardian_boots Hundred_Guardian_Boots Hundred_Guardian_Boots 1  weren_boots 0  73486 0 1770 704643238 3.500000 100 0 0 33 9 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_shek_leather_armor Shek_Heavy_Leather Shek_Heavy_Leathers 1  shekfighterarmor 0  16842765 0 690 704643236 14.000000 100 0 36 15 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_machinst_budenovka_gas Budenovka_and_Gas_Mask Budenovka_and_Gas_Mask 1  mascara_post 0  72477642508 0 9 123731968 1.000000 100 24 5 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_machinist_robe Machinist_Robe Machinist_Robes 1  copy_machinistorobe 0  553648141 0 25 123731968 2.000000 100 0 19 8 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_cultist_hieropriest Hieropriest_Habit Hieropriest_Habits 1  dmjhlzsxsxtdejjz_combined 0  553713677 0 125 123731968 2.000000 70 0 20 6 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_desert_bandana Outlaw_Bandana Outlaw_Bandanas 1  glmldnvwlrad 0  69810065164 0 895 704643238 1.750000 100 9 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_cultist_hood Face_of_The_Faithftul Faces_of_The_Faithftul 1  copy_dmjhlstdejjzccdy 0  71403835148 0 35 123731968 1.250000 100 14 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_cultist_hood2 Face_of_The_Penitent Face_of_The_Penitents 1  dmjhlzsxsxhxad 0  71403835148 0 35 123731968 1.250000 100 18 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_demonistarmor Moon_Guardian_Panoply Moon_Guardian_Panoplies 1  demonistarmor 0  553713677 0 331 123731968 2.000000 70 0 31 9 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_shinobicitizenfem Chain_Yukata Chain_Yukatas 1  tukurobe 0  16842765 0 33 123731968 1.000000 100 0 9 9 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_bamboo_spearu Makeshift_Bamboo_Spear Makeshift_Bamboo_Spears 1  bamboo_spear 0  1212420100 4222124851990272 80 8202 2.000000 100 0 0 0 0 0 88 0 200 0 276 527
+ 0
+0
+
+ itm_heavy_plank Heavy_Plank Heavy_Planks 2  Sword22 0  Scabbard22 3458764513820540928  38661062659 9223635958593749216 1423 155668 2.750000 100 0 0 0 10 0 60 0 125 0 256 44
+ 0
+0
+
+ itm_arashiniohelm Arashi_Nio_Helm Arashi_Nio_Helms 1  arashiniohelm 0  68719546124 0 290 704643238 2.500000 100 35 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_arashinio_soygent Arashi_Nio_Yoroi Arashi_Nio_Yoroi 1  arashinioshould 0  16846861 0 1320 704643236 19.000000 100 0 40 12 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_arashi_nio_chain Arashi_Nio_Gusoku Arashi_Nio_Gusoku 1  khand_med_lam_b 0  16846861 0 1320 704643236 19.000000 100 0 30 15 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_sturm_boots Pale_Leather_Boots Pale_Leather_Boots 1  botorashi 0  65550 0 465 123731968 1.000000 100 0 0 20 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_lamellar_boots Lamellar_and_Chain_Boots Lamellar_and_Chain_Boots 1  variag_boots 0  69390 0 254 123731968 1.000000 100 0 0 27 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_arashiniohelm2 Arashi_Nio_Helmet Arashi_Nio_Helmet 1  arashiniohelm2 0  68719546124 0 290 704643238 2.500000 100 35 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_arashi_arrows Arashi_Arrows Arashi_Arrows 3  arrow_tyrk_b 0  flying_missile 2305843009213693952  copy_kolchan_tyrk_b 3458764513820540928  4101 1610612736 350 4398046511112 3.000000 50 0 0 0 0 0 0 0 91 28 259 0
+ 0
+0
+
+ itm_arashi_trooper Arashi_Trooper_Kabuto Arashi_Trooper_Kabutos 1  copy_trooper_helm_e 0  70867030028 0 430 704643238 3.000000 100 41 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_arashi_noble_armor Arashi_Elite_Muneate Arashi_Elite_Muneate 1  khand_noble_lam 0  553652237 0 1400 704643236 19.000000 100 0 40 14 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_arashi_kote Arashi_Kote Arashi_Kote 2  glovesblack_L 0  gauntlets_L 134217728  65551 0 1040 704643236 1.000000 100 0 24 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_suneate3 Arashi_Suneate Arashi_Suneate 1  suneate3 0  3854 0 254 123731968 1.000000 100 0 0 20 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_corsair_bow Arashi_Yumi Arashi_Yumis 2  corsair_bow 0  yumi_a_carry 3458764513820540928  6357000 5905584128 145 655370 1.750000 100 0 0 0 3 0 73 69 0 0 283 0
+ 0
+0
+
+ itm_gibson_hovercraft Dust_Hikoki Dust_Hikokis 1  gibson_hovercraft 0  65537 0 600 105226960902 0.000000 70 0 40 0 2 120 44 81 106 0 524 0
+ 0
+0
+
+ itm_empiremusket Type-E_Jezail Type-E_Jezails 1  empiremusket 0  6357009 555930353664 365 131082 6.000000 100 0 0 99 0 0 53 183 0 1 304 0
+ 0
+1
+-51.000000  4 600 1 1152921504606847102 720 2 1 27 721 2 1 36 1969 3 1008806316530991133 1 15 
+
+ itm_arashi_trooperarmor Arashi_Nio_Chain_Yoroi ItemPl 1  tao_paladin 0  553652237 0 1400 704643236 19.000000 100 0 40 14 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_standard_saber Standard-Issue_Sabre Standard-Issue_Sabres 2  HLQQZD 0  HLQQZDB 3458764513820540928  4198402 9223388564182532110 191 155668 1.500000 100 0 0 0 0 0 99 0 97 0 0 30
+ 0
+0
+
+ itm_iron_war_spear Iron_Yari Iron_Yaris 1  war_spear_h4 0  1078267908 4222131026005760 1140 8202 2.500000 100 0 0 0 0 0 95 0 155 0 286 532
+ 0
+0
+
+ itm_hafted_naginata Hafted_Naginata Hafted_Naginatas 1  hafted_blade_h4 0  6619140 8725730477215488 352 8202 4.500000 100 0 0 0 0 0 90 0 166 0 281 289
+ 0
+0
+
+ itm_veloblack Noblewoman_Veil Noblewoman_Veils 1  veloblack 0  1610682124 0 300 123731968 0.500000 100 4 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_heavy_breastplate Heavy_Breastplate Heavy_Breastplate 1  knightarmor_fem 0  16842765 0 6553 704643238 27.000000 100 0 55 17 9 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_shogunate_do Shogunate_Infantry_Do Shogunate_Infantry_Do 1  khand_light_lam 0  16842765 0 650 704643236 9.000000 100 0 27 8 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_shogunate_kosane Shogunate_Kosane_Do Shogunate_Kosane_Do 1  tao_knight 0  553713677 0 331 123731968 2.000000 70 0 30 8 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_shogunate_kozanegus Shogunate_Kozane_Gusoku Shogunate_Kozane_Gusoku 1  tao_reserve 0  553713677 0 331 123731968 2.000000 70 0 33 8 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_kote_handwrap Bindings_and_Kote Bindings_and_Kote 1  gants_samurai02_L 0  69647 0 90 0 0.250000 120 0 13 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_ronin_suneate Ronin_Suneate Ronin_Suneate 1  bottes_samurai01 0  69390 0 465 123731968 1.000000 100 0 0 24 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_villager_outfito Villager_Outfit Villager_Outfit 1  costume_japonais01 0  553652237 0 6 123731968 1.000000 100 0 6 2 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_skele_katana Model_#_Mk_II_Katana Model_#_Mk_II_Katanas 2  katana_samurai12 0  katana_samurai12_fourreau 3458764513820540928  4259843 9223635962888716543 679 24596 2.000000 100 0 0 0 9 0 113 0 97 0 273 37
+ 0
+0
+
+ itm_veteran_katana Model_#_Catun_No.3_Katana Model_#_Catun_No.3_Katanas 2  katana_samurai03 0  katana_samurai03_fourreau 3458764513820540928  4259843 9223635958593749232 455 24596 2.000000 100 0 0 0 0 0 120 0 102 0 281 28
+ 0
+0
+
+ itm_catun01_katana Model_#_Catun_No.1_Katana Model_#_Catun_No.1_Katanas 2  katana_samurai11 0  katana_samurai11_fourreau 3458764513820540928  4259843 9223635958593749232 455 24596 2.000000 100 0 0 0 0 0 127 0 100 0 285 29
+ 0
+0
+
+ itm_black_katana [Model_#_Mk_III_Katana [Model_#_Mk_III_Katanas 2  katana_samurai10 0  katana_samurai10_fourreau 3458764513820540928  4259843 9223635958593749232 455 24596 2.000000 100 0 0 0 0 0 116 0 106 0 282 26
+ 0
+0
+
+ itm_lizardskin_katana Lizardskin_Katana Lizardskin_Katanas 2  katana_samurai08 0  katana_samurai08_fourreau 3458764513820540928  4259843 9223635962888716543 679 24596 2.000000 100 0 0 0 9 0 108 0 95 0 274 27
+ 0
+0
+
+ itm_ansatsu_waki Ansatsujin_Wakizashi Ansatsujin_Wakizashi 2  wakizashi_samurai02 0  wakizashi_samurai02_fourreau 3458764513820540928  4259842 9223388573040902159 321 24596 1.250000 100 0 0 0 0 0 111 0 65 0 281 25
+ 0
+0
+
+ itm_golden_meitou_katana Model_#_AU_Meitou_Katana Model_#_AU_Meitou_Katanas 2  katana_samurai09 0  katana_samurai09_fourreau 3458764513820540928  4299165699 9223635962888716543 6679 24596 2.000000 100 0 0 0 9 0 133 0 95 0 289 33
+ 0
+0
+
+ itm_outlaw_sack_hood Outlaw_Hood Outlaw_Hoods 1  steam_hood_on_head 0  71403900684 0 4 31459328 1.000000 100 10 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_wrench_club Wrench_Club Wrench_Clubs 1  trench_club_4 0  274882428930 9223388532775583758 98 262164 2.500000 100 0 0 0 0 0 98 0 70 0 256 533
+ 0
+0
+
+ itm_mangutter Mangutter Mengutters 1  long_blade 0  1080360964 4222131026005760 999 8202 4.500000 100 0 0 0 0 0 91 0 160 0 280 39
+ 0
+0
+
+ itm_ringed_spear Ringed_Spear Ringed_Spears 1  orgspear1 0  1080360964 4222124851987200 1300 8202 3.500000 100 0 0 0 9 0 90 0 245 0 300 535
+ 0
+0
+
+ itm_savage_blade Savage_Blade Savage_Blades 1  orgsword5 0  4259842 9223388529822793743 375 24596 1.250000 100 0 0 0 0 0 122 0 73 0 281 29
+ 0
+0
+
+ itm_ashen_visor Ashen_Visor_Helm Ashen_Visor_Helms 1  orthanc_guard_helm2 0  69793284108 0 495 704643238 1.750000 100 41 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_sandstrider_leathers Sandstrider_Boots Sandstrider_Boots 1  peltast_boots 0  536940302 0 120 123731968 2.000000 100 0 0 18 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_flotsamhakama Flotsam_Hakama Flotsam_Hakama 1  flotsamhakama 0  16842765 0 1259 704643236 18.000000 100 0 23 13 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_shinobikabuto Shinobi_Kabuto Shinobi_Kabuto 1  shinobikabuto 0  65548 0 1824 704643238 2.000000 100 44 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_kunoichihakama Kuroi_Hakama Kuroi_Hakama 1  cuerpofem\ 0  16842765 0 1259 704643236 18.000000 100 0 23 13 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_leper_glove Leper_Hand_Bindings Leper_Hand_Bindings 1  demonist_guards_gauntlets_L 0  4111 0 90 0 0.250000 120 0 6 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_clan_robes Clan_Robes Clan_Robes 1  papopearmor 0  553648141 0 348 123731968 4.000000 100 0 15 12 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_prophet_hood Okoso_Zukin Okoso_Zukin 1  prophethood 0  536940300 0 15 123731968 1.000000 45 24 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_holytats Holyman_Robes Holyman_Robes 1  jehanna_plate 0  553652237 0 625 704643236 2.000000 70 0 43 16 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_leper_binding_armor Leper_Bindings Leper_Bindings 1  demonistarmor 0  16777229 0 1259 704643236 18.000000 100 0 38 19 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_makeshift_leather_boots Makeshift_Leather_Boots Makeshift_Leather_Boots 1  axemanboot34OLD 0  65550 0 254 123731968 1.000000 100 0 0 20 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_cannibal_mask Cannibal_Mask Cannibal_Mask 1  khanibarumask 0  69810061324 0 895 704643238 1.750000 100 35 3 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_brown_kimono Brown_Kimono Brown_Kimonos 1  s_newkimono_a_c 0  553713677 0 500 123731968 3.000000 100 0 10 10 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_flotsam_mail_and_plate Kusari_and_Do Kusari_and_Do 1  flotsamchain 0  16842765 0 970 704643236 16.000000 100 0 34 12 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_woodenpipa Wooden_Pipe Wooden_Pipes 1  woodenpipa 0  536936460 0 200 123731968 1.000000 100 2 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_makeshift_blade Makeshift_Blade Makeshift_Blade 1  orgsword1 0  4259842 9223388529822793743 218 155668 1.700000 100 0 0 0 0 0 99 0 97 0 275 28
+ 0
+0
+
+ itm_drifter_hood Sandwalker_Hood Sandwalker_Hoods 1  s_so_d 0  536940300 0 35 123731968 1.250000 100 14 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_enforcer_suneate Enforcer_Suneate Enforcer_Suneate 1  bottes_samurai02 0  69390 0 465 123731968 1.000000 100 0 0 28 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_noble_boots Noble_Boots Noble_Boots 1  dynasty_boot_nomad 0  536940302 0 900 123731968 1.250000 100 0 0 14 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_noble_shoes Noble_Suede_Shoes Noble_Suede_Shoes 1  dynasty_boot_khergit 0  536940302 0 900 123731968 1.250000 100 0 0 14 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_onna_bugeisha Heavy_Empire_Yoroi(F) Heavy_Empire_Yoroi(F) 1  onnabugeisha 0  16842765 0 3259 704643236 18.000000 100 0 41 22 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_onnabu Onna_Bugeisha_Yoroi Onna_Bugeisha_Yoroi 1  s_reimu_b 0  16842765 0 3259 704643236 18.000000 100 0 41 22 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_crude_spear Crude_Spear Crude_Spears 1  Org-Spear1 0  1080360964 4222124851990272 1352 8202 4.500000 100 0 0 0 0 0 93 0 157 0 282 39
+ 0
+0
+
+ itm_shinobi_kote Shinobi_Kote Shinobi_Kote 2  gloves_kote_1_L 0  gauntlets_L 134217728  65551 0 1040 704643236 1.000000 100 0 27 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_kralfang Kral's_Fang Kral's_Fangs 1  orgsword7 0  6356995 9223635924234010848 2523 155668 2.750000 100 0 0 0 10 0 93 0 120 0 256 40
+ 0
+0
+
+ itm_martial_bindin Martial_Artist_Bindings Martial_Artist_Bindings 1  warmmartialbind 0  69390 0 465 123731968 1.000000 100 0 0 13 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_shinobi_bind Shinobi_Bindings Shinobi_Bindings 1  shinobimartialbind 0  69390 0 4465 123731968 1.000000 100 0 0 17 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_iron_kanabou_spik Iron_Spiked_Kanabou Iron_Spiked_Kanabou 1  kanobou_iron_spike_ring 0  313538969603 9223635923965575392 2470 262164 4.500000 100 0 0 0 0 0 90 0 95 0 512 547
+ 0
+0
+
+ itm_makeshift_slasher Makeshift_Pipe_Slasher Makeshift_Pipe_Slashers 2  makeshift_pipe 0  spear_c_2-5m 6291486  4433444867 263887379235040 2155 8202 2.500000 100 0 0 0 0 0 87 0 155 0 256 36
+ 0
+0
+
+ itm_helmetoshek Shek_War_Helmet Shek_War_Helmets 1  helmetshek 0  70867025932 0 3433 123731968 2.000000 100 40 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_pig_iron_gloves Ironclad_Gloves Ironclad_Gloves 1  Crude_gloves_L 0  65551 0 1710 704643236 0.750000 100 0 10 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_hornless_shek_helm Band_of_Bones_Helm Band_of_Bones_Helms 1  weren_skiffhelm 0  72477573132 0 9 123731968 1.000000 100 31 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_orange_bandana Orange_Bandana Orange_Bandana 1  bandanarojar 0  553713676 0 750 0 0.000000 100 12 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_female_leather_jacket Drifter_Leather_Jacket(F) Drifter_Leather_Jackets(F) 1  leather_outfit 0  16842765 0 650 704643236 9.000000 100 0 32 12 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_cultist_sack Cultist_Sack_Hood Cultist_Sack_Hood 1  sacoculto 0  71403835148 0 35 123731968 1.250000 100 8 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_faith_robes Faithful_Robes Faithful_Robes 1  church_priest_1d 0  553713677 0 25 704643236 2.000000 70 0 4 2 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_rebel_vesto Peasant_Lamellar_Armor Peasant_Lamellar_Armors 1  yifu-28-xxxv 0  553652237 0 321 123731968 6.000000 100 0 13 6 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_rebel_lamellar_gear Provincial_Lamellar_Armor Provincial_Lamellar_Armors 1  yifu-28-xxxvavv 0  553652237 0 321 123731968 6.000000 100 0 18 9 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_shogun_momo Shogun_Momonari_Kabuto Shogun_Momonari_Kabuto 1  ebonymomo 0  69793222668 0 8895 704643234 1.750000 100 55 5 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_gambeson_postap Patchwork_Gambeson Patchwork_Gambeson 1  cuero_endurecido_2 0  553652237 0 260 123731968 5.000000 100 0 20 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_turban_straw Turban_and_Rattan_Hat Turbans_and_Rattan_Hats 1  tihat2 0  536936460 0 8 123731968 1.000000 100 18 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_skinbandit_head Skin_Bandit_Head Skin_Bandit_Heads 1  skinbanditoface 0  72477573132 0 9 123731968 1.000000 100 30 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_binbou_katana Model_#_Han_No.1_Katana Model_#_Han_No.1_Katanas 2  katana_samurai14 0  katana_samurai14_fourreau 3458764513820540928  4259843 9223635962888716543 1879 24596 2.000000 100 0 0 0 9 0 116 0 95 0 280 36
+ 0
+0
+
+ itm_oldassr_katana Aged_Katana Aged_Katanas 2  katana_samurai17 0  katana_samurai17_fourreau 3458764513820540928  4259843 9223635962888716543 1300 24596 2.000000 100 0 0 0 9 0 101 0 95 0 268 25
+ 0
+0
+
+ itm_empire_katana Empire_Katana Empire_Katanas 2  katana_samurai04 0  katana_samurai04_fourreau 3458764513820540928  4259843 9223635962888716543 3679 24596 2.000000 100 0 0 0 11 0 117 0 95 0 279 33
+ 0
+0
+
+ itm_kuroiryu_nodachi Black_Dragon_Nodachi Black_Dragon_Nodachis 2  no_dachi_samurai02 0  no_dachi_samurai02_fourreau 3458764513820540928  6356995 9223635958593749216 3920 262164 3.500000 100 0 0 0 11 0 87 0 125 0 256 41
+ 0
+0
+
+ itm_roninb_nodachi Model_#_Catun_No.4_Nodachi Model_#_Catun_No.4_Nodachi 2  no_dachi_samurai11 0  no_dachi_samurai11_fourreau 3458764513820540928  6356995 9223635958593749216 1920 262164 3.500000 100 0 0 0 11 0 92 0 125 0 256 38
+ 0
+0
+
+ itm_empire_waki Empire_Wakizashi Empire_Wakizashi 2  wakizashi_samurai04 0  wakizashi_samurai04_fourreau 3458764513820540928  4259842 9223388573040902159 3321 24596 1.250000 100 0 0 0 0 0 108 0 65 0 280 27
+ 0
+0
+
+ itm_ronin_waki Ronin_Wakizashi Ronin_Wakizashis 2  wakizashi_samurai14 0  wakizashi_samurai14_fourreau 3458764513820540928  4259842 9223388573040902159 2321 24596 1.250000 100 0 0 0 0 0 113 0 65 0 273 29
+ 0
+0
+
+ itm_MkII_Nodachi Model_#_Mk_II_Nodachi Model_#_Mk_II_Nodachi 2  no_dachi_samurai03 0  no_dachi_samurai03_fourreau 3458764513820540928  6356995 9223635958593749216 2356 262164 3.500000 100 0 0 0 11 0 92 0 127 0 256 43
+ 0
+0
+
+ itm_akazonae_yoroi Akazonae_Yoroi Akazonae_Yoroi 1  #grayscale_sabe3-1_d3 0  16842765 0 3377 704643236 18.000000 100 0 38 19 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_hiver_rags Hiver_Rag_Skirt Hiver_Rag_Skirts 1  hivertrapo 0  553713677 0 348 123731968 4.000000 100 0 8 3 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_hiver_legs Hiver_Legs Hiver_Legs 1  in_leg_L 0  65550 0 465 123731968 1.000000 100 0 0 17 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_hiver_hands Hiver_Hands Hiver_Hands 1  in_hand_L 0  69647 0 90 0 0.250000 120 0 5 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_suneate_akai Akazonae_Suneate Akazonae_Suneate 1  akaisuneate 0  3854 0 254 123731968 1.000000 100 0 0 33 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_akazonae_tekko Akaonae_Tekkou Akaonae_Tekkou 2  glove_clone_L 0  gauntlets_L 134217728  65551 0 1040 704643236 1.000000 100 0 10 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_outlaw_pig_iron_helm Outlaw_Pig_Iron_Helm Outlaw_Pig_Iron_Helms 1  mercenary_helmet2 0  69793284108 0 321 704643238 1.250000 100 26 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_pipe_helmet Pipe_Helmet Pipe_Helmets 1  pipehelm 0  69793284108 0 321 704643238 1.250000 100 30 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_skeleton_legs Skeleton_Legs_MKII Skeleton_Legs_MKII 1  droidlegs2r_L 0  3854 0 465 123731968 1.000000 100 0 0 20 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_pirate_rifle Welded_Iron_Rifle Welded_Iron_Rifles 1  piraterifle 0  6357009 6174539776 1300 0 2.000000 5 0 0 99 0 0 51 170 0 18 301 0
+ 0
+1
+-51.000000  4 600 1 1152921504606847102 720 2 1 27 721 2 1 36 1969 3 1008806316530991133 1 15 
+
+ itm_tusken_headwrap Deep_Desert_Respirator Deep_Desert_Respirators 1  tuskegee 0  71403831308 0 750 0 0.000000 100 33 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_impaler_gas_mask Impaler_Helmet Impaler_Helmets 1  Necrohelm3 0  65548 0 824 704643238 2.000000 100 44 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_drifter_leather_jacket Drifter_Leather_Jacket Drifter_Leather_Jackets 1  wannabenegan 0  553713677 0 3350 123731968 3.000000 100 0 27 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_trader_leather_jacket Trader_Leather_Jacket Trader_Leather_Jackets 1  zann_armor_1 0  553713677 0 2750 123731968 1.000000 100 0 23 8 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_skeleton_bodee2 Skeleton_Frame_MKII Skeleton_Frame_MKII 1  droid_body2 0  553713677 0 8348 123731968 4.000000 100 5 55 25 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_longdao Heavy_Dao Heavy_Dao 1  dao11 0  34433466372 9223635923965575392 4316 262164 4.500000 100 0 0 0 10 0 88 0 96 0 256 47
+ 0
+0
+
+ itm_weedian_robes Ganjauid_Robe Ganjauid_Robes 1  tusken_armor3 0  553713677 0 3330 123731968 5.000000 100 3 33 3 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_scoped_jezail Scoped_Jezail Scoped_Jezails 1  lunarjezail 0  6357009 555930353664 7365 131082 6.000000 45 0 0 96 0 0 45 183 0 1 288 0
+ 0
+1
+-51.000000  4 600 1 1152921504606847102 720 2 1 27 721 2 1 36 1969 3 1008806316530991133 1 15 
+
+ itm_vodoo_needles Throwing_Nails Throwing_Nails 2  voodoo_needle 0  copy_voodoo_quiver 3458764513820540928  4259850 36507287552 285 4398046781448 5.000000 100 0 0 0 1 0 93 27 45 10 281 0
+ 0
+0
+
+ itm_mugenja_heavy_lamellar Shugenja_Heavy_Lamellar Shugenja_Heavy_Lamellar 1  mugenjaheavylamellar 0  553713677 0 3970 123731968 18.000000 100 0 36 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_blind_hood Blind_Hood Blind_Hoods 1  bzmckbs 0  536874764 0 35 123731968 1.250000 100 14 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_crescent_moon_knife Crescent_Harvester Crescent_Harvesters 1  HornedKnife2 0  12599298 9223372036879941646 9 0 1.500000 100 0 0 0 0 0 99 0 40 0 256 26
+ 0
+0
+
+ itm_city_girl_outfit Cloth_Outfit(F) Cloth_Outfits(F) 1  fem_civ_1b 0  553648141 0 500 123731968 3.000000 100 0 10 10 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_samurai_waki Model_#_Catun_No.7_Wakizashi Model_#_Catun_No.7_Wakizashis 2  wakizashi_samurai15 0  wakizashi_samurai15_fourreau 3458764513820540928  4259842 9223388573040902159 3321 24596 1.250000 100 0 0 0 0 0 115 0 66 0 280 27
+ 0
+0
+
+ itm_drifta_katana Model_#_Catun_No.2_Katana Model_#_Catun_No.2_Katanas 2  katana_samurai15 0  katana_samurai15_fourreau 3458764513820540928  4259843 9223635962888716543 3679 24596 2.000000 100 0 0 0 11 0 120 0 97 0 282 28
+ 0
+0
+
+ itm_noble_mongol_coat Noble_Fur_Coat Noble_Fur_Coats 1  mongol_armor_green 0  553713677 0 3610 123731968 15.000000 100 0 32 10 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_monocle Monocle Monocles 1  monocularr 0  553713676 0 4 123731968 1.000000 100 8 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_republic_gunto Standard-Issue_Republic_Gunto Standard-Issue_Republic_Gunto 2  shin_gunto 0  shin_gunto_scab 3458764513820540928  4194307 9223635962888716543 679 24596 2.000000 100 0 0 0 9 0 118 0 95 0 281 25
+ 0
+0
+
+ itm_advanced_gas_mask Advanced_Gas_Mask Advanced_Gas_Masks 1  mascaradegaspriti 0  72477638668 0 3339 123731968 1.000000 100 40 8 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_leather_umsim Leather_Umsim Leather_Umsim 1  jacket_closed_a 0  553713677 0 331 123731968 2.000000 70 0 31 9 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_female_shek_head2 Shek_Female_Head Shek_Female_Head 1  sugi_on_head 0  72477576972 0 9 123731968 1.000000 100 30 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_shek_femhead_blk Shek_Woman_Head Shek_Woman_Heads 1  copy_sugi_on_head 0  72477576972 0 9 123731968 1.000000 100 30 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_bandit_knife Bandit_Knife Bandit_Knives 2  bandit_knife 0  longknife_b_scaba 3458764513820540928  4259842 9223388573040902159 2820 24596 1.250000 100 0 0 0 0 0 122 0 60 0 273 19
+ 0
+0
+
+ itm_shogunate_red_jingasa Shogunate_Red_Jingasa Shogunate_Red_Jingasa 1  HaikouK02 0  69256413196 0 2800 123731968 1.000000 100 28 4 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_flaying_blade Flayer Flayers 1  w_rena 0  6361091 9223388534117761248 4193 155668 1.500000 100 0 0 0 0 0 96 0 95 0 256 31
+ 0
+0
+
+ itm_norimitsu_nodachi War-Torn_Odachi War-Torn_Odachis 1  w_momiji_b 0  6361091 9223635924234010848 524 155668 3.000000 100 0 0 0 11 0 88 0 166 0 256 45
+ 0
+0
+
+ itm_iron_stud_kanabou Iron_Studded_Kanabou ItemPl 1  kanobou_iron_stud_ring 0  313538969603 9223635923965575392 2470 262164 4.500000 100 0 0 0 0 0 90 0 95 0 512 542
+ 0
+0
+
+ itm_ringed_blade Ringed_Weighted_Blade Ringed_Weighted_Blade 2  w_asuka_c 0  w_asuka_c_scab 3458764513820540928  4259842 9223388564182532111 2218 155668 1.700000 100 0 0 0 0 0 93 0 97 0 280 30
+ 0
+0
+
+ itm_crowd_chopper Crowd_Chopper Crowd_Choppers 1  w_so_a 0  140836868 8725730477215488 3350 8202 3.250000 100 0 0 0 0 0 89 0 161 0 275 39
+ 0
+0
+
+ itm_hafted_glaive Long_Hafted_Glaive Long_Hafted_Glaives 1  w_so_b 0  1212481540 4222124851990272 3125 8202 2.500000 100 0 0 0 0 0 83 0 170 0 281 36
+ 0
+0
+
+ itm_black_nagamaki Drifter_Nagamaki Drifter_Nagamakis 1  w_momiji_a 0  6291459 9223635924234010848 920 262164 3.500000 100 0 0 0 11 0 77 0 145 0 256 43
+ 0
+0
+
+ itm_ronin_naginata Ronin_Naginata Ronin_Naginatas 1  w_so_c 0  140775428 8725730477215488 185 8202 2.750000 100 0 0 0 0 0 95 0 175 0 276 37
+ 0
+0
+
+ itm_weighted_naginata Weighted_Iron_Naginata Weighted_Iron_Naginatas 1  w_so_d 0  1080360964 4222131026005760 3452 8202 4.500000 100 0 0 0 0 0 81 0 180 0 285 41
+ 0
+0
+
+ itm_jumonji_yari Jumonji_Yari Jumonji_Yari 1  w_syou_e 0  4521988 8725730586267392 2230 8202 1.500000 100 0 0 0 0 0 100 0 147 0 285 0
+ 0
+0
+
+ itm_pig_iron_pike Pig_Iron_Pike Pig_Iron_Pikes 1  w_syou_b 0  1080360964 4222124851987200 1235 8202 3.500000 100 0 0 0 9 0 90 0 170 0 287 531
+ 0
+0
+
+ itm_guts_plank Gut-Smasher_Plank Gut-Smasher_Planks 1  w_doll_c 0  38661062659 9223635958593749216 5423 131220 2.750000 100 0 0 0 10 0 55 0 130 0 256 58
+ 0
+0
+
+ itm_horse_chopperusty Rusty_Horse_Chopper Rusty_Horse_Choppers 1  meirinoxida 0  6356995 9223635924234010848 4455 24596 2.000000 100 0 0 0 0 0 99 0 100 0 0 36
+ 0
+0
+
+ itm_dragon_cannon Dragon_Cannon Dragon_Cannons 1  FireLoong 0  6357009 555930353664 17365 131082 6.000000 45 0 0 96 0 0 25 200 0 1 311 0
+ 0
+1
+-51.000000  4 600 1 1152921504606847102 720 2 1 27 721 2 1 36 1969 3 1008806316530991133 1 15 
+
+ itm_iron_jitte Iron_Jitte Iron_Jitte 1  w_rika_a 0  274882166786 9223388534117761038 1212 262164 2.750000 100 0 0 0 0 0 98 0 70 0 256 538
+ 0
+0
+
+ itm_dusty_old_trenchcoat Dusty_Old_Trenchcoat Dusty_Old_Trenchcoats 1  steam_leather_trenchhed 0  553713677 0 3248 123731968 4.000000 100 0 31 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_kunoichi_chainrobe Kunoichi_Chainrobe Kunoichi_Chainrobes 1  BlackNinjaArmorF 0  553713677 0 500 123731968 3.000000 100 0 22 10 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_transparent_hand Transparent_Hand Transparent_Hands 1  transparent_hand_L 0  4111 0 90 0 0.250000 120 0 6 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_shogun_katana Kurokiri_Meitou Kurokiri_Meitou 2  katanashogun 0  katanashogun_scabbard 3458764513820540928  4299165699 9223635962888716543 6666 24596 2.000000 100 0 0 0 9 0 100 0 95 0 296 40
+ 0
+0
+
+ itm_ground_cannabis Ground_Cannabis Ground_Cannabis 1  dou_hoshiii 0  33619979 0 42000 0 30.000000 10 80 0 0 0 0 0 0 0 25 0 0
+ 0
+0
+
+ itm_ornate_hunfu Artisanal_Hunfu Artisanal_Hunfu 1  chinese4_robe 0  553713677 0 1500 123731968 3.000000 100 0 10 10 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_skeleton_jingasa Skeleton_Jingasa_and_Cloak Skeleton_Jingasa_and_Cloaks 1  skeledrifterhead 0  3758104332 0 10500 0 0.000000 100 66 10 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_skeleton_heavy_frame Ancient_P4_Frame Ancient_P4_Frames 1  SkeletonP4frame 0  16777229 0 106553 704643238 30.000000 100 0 55 33 9 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_skin_bandit_artificer Skin_Bandit_Visor_Head Skin_Bandit_Visor_Heads 1  skinbanditartificer 0  72477581068 0 9 123731968 1.000000 100 36 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_ancient_glaive Ancient_Glaive Ancient_Glaives 1  vibroglaive 0  6291460 8725730477215488 8352 8202 4.500000 100 0 0 0 0 0 94 0 155 0 282 287
+ 0
+0
+
+ itm_ancient_naginata Ancient_Naginata Ancient_Naginatas 1  vibronaginata 0  6619140 8725730477215488 10352 8202 4.500000 10 0 0 0 0 0 99 0 140 0 282 286
+ 0
+0
+
+ itm_reinforced_leathaer_black Reinforced_Black_Leather_Boots Reinforced_Black_Leather_Boots 1  boot_slim_black_reinforced_L 0  14 0 465 123731968 1.000000 100 0 0 35 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_hungry_slahser Bloody_Slasher Bloody_Slashers 1  orc_slasher 0  4259842 9223388530628100111 2140 24596 1.250000 100 0 0 0 0 0 130 0 10 0 276 20
+ 0
+0
+
+ itm_white_lamellar_armor Medium_Lamellar_Armor Medium_Lamellar_Armors 1  black_lamellar_vest145 0  553713677 0 3970 123731968 18.000000 100 0 36 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_xuejie Peasant_Dress_and_Long_Vest Peasant_Dress_and_Long_Vest 1  Xuejie 0  553713677 0 500 123731968 3.000000 100 0 10 10 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_ronin_makeshift_gusoku Makeshift_Gusoku Makeshift_Gusoku 1  ronin_makeshift 0  16842765 0 2828 704643236 25.000000 100 0 28 21 8 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_ogjingasa Stained_Kasa Stained_Kasa 1  bigasssandogasa 0  536936460 0 229 123731968 1.000000 100 18 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_bandit_raggu Old_Rags Old_Rags 1  yf_ydsb 0  536936461 0 3 6291456 7.000000 100 0 3 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_drifter_ledervest Leather_Vest_and_Backpack Leather_Vests_and_Backpacks 1  vestdrifta 0  553713677 0 146 123731968 4.000000 100 0 15 7 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_ronin_lamellar Ronin_Lamellar_Armor Ronin_Lamellar_Armors 1  harashod 0  16842765 0 2828 704643236 25.000000 100 0 31 24 8 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_bandofbonesarmor Kral_Iron_Plate Kral_Iron_Plates 1  armor_pirate_b 0  553717773 0 990 704643236 15.000000 100 0 36 8 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_peasant_humbregi Humble_Shuhe Humble_Shuhe 1  choinaman 0  553713677 0 33 123731968 1.000000 100 0 9 9 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_peasant_shuhe Peasant_Shuhe Peasant_Shuhe 1  choinaman2 0  553713677 0 33 123731968 1.000000 100 0 9 9 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_bloody_turban Bloodstained_Turban Bloodstained_Turbans 1  bloodstainedturbant 0  3852 0 28 123731968 1.000000 100 11 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_iron_flat_top Tower_Helmet Tower_Helmets 1  demak_cavalry_helm_a 0  69644 0 2303 704643238 1.750000 100 33 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_iron_flat_toprag Tower_Helmet Tower_Helmets 1  demak_cavalry_helm_b 0  69644 0 2303 704643238 1.750000 100 33 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_ronin_trashplate Bandit_Yoroi Bandit_Yoroi 1  armor_pirate_c 0  16842765 0 1895 704643236 15.000000 100 0 38 14 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_scrapyard_chainmail Heavy_Scrap_Hauberk Heavy_Scrap_Hauberk 1  Haikou01 0  16842765 0 3320 704643236 19.000000 100 0 40 12 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_homemade_bandana Tied_Bandana Tied_Bandanas 1  indian_turban_3 0  553717516 0 450 0 0.000000 100 8 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_mercantile_robes Desert_Merchant_Robes Desert_Merchant_Robes 1  merchantorobes 0  553713677 0 348 123731968 4.000000 100 0 6 6 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_shogun_yoroi Kuro_Arashi Kuro_Arashi 1  Sugo_kebiki_25 0  557846541 0 9450 704643236 17.000000 100 10 55 33 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_martial_artist_robes Martial_Artist_Robes Martial_Artist_Robes 1  martialartistrobe 0  553717773 0 3610 593494016 10.000000 90 0 33 13 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_ancient_suneate Ancient_Suneate Ancient_Suneate 1  TerracottaFoot_L 0  4110 0 9254 260 1.000000 100 0 0 33 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_terracotta_skeleton Terracotta_Skeleton_Head Terracotta_Skeleton_Heads 1  ancientskelehead 0  72477642508 0 9 123731968 1.000000 100 33 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_ancient_samurai_yoroi Ancient_Samurai_Yoroi Ancient_Samurai_Yoroi 1  steam_diving_armor 0  16777229 0 106553 704643238 30.000000 100 0 55 33 9 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_ancient_boots Ancient_Boots Ancient_Boots 1  steam_diving_boots 0  7950 0 9254 260 1.000000 100 0 0 31 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_ancient_terracotta_yoroi Terracotta_Yoroi Terracotta_Yoroi 1  TerracottaBody 0  16777229 0 106553 704643238 30.000000 100 0 53 31 9 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_mingfu_dress Green_Mingfu Green_Mingfu 1  mingnv_2 0  553713677 0 500 123731968 3.000000 100 0 10 10 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_yellow_mingfu_dress Yellow_Mingfu Yellow_Mingfu 1  mingnv_4 0  553713677 0 500 123731968 3.000000 100 0 10 10 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_patchwork_robes Patchwork_Robes Patchwork_Robes 1  beduin_armor_c 0  16842765 0 633 6291584 1.000000 100 0 9 9 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_scorch_rags Scorchlander_Rags Scorchlander_Rags 1  scorchlandernomad 0  553713677 0 3 73400320 7.000000 100 0 3 3 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_miner_helmet Miner_Helmet Miner_Helmets 1  moinerhelmet 0  69388 0 4495 704643238 1.500000 100 24 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_hiver_kebiki Hiver_Kebiki Hiver_Kebikis 1  insamurai 0  553713677 0 2331 123731974 2.000000 70 0 28 5 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_hide_outfit Trapper_Hides Trapper_Hides 1  ropa_con_piel 0  553713677 0 117 704643236 6.000000 100 0 13 6 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_bonedog1 Bone_Dog Bone_Dogs 1  xwargArmored_2B 0  65537 0 2200 110595670016 0.000000 40 0 12 0 2 135 44 50 112 0 534 0
+ 0
+0
+
+ itm_traveller_robes Traveller_Robes Traveller_Robes 1  demak_militia_1 0  553713677 0 795 704643236 2.000000 80 0 13 6 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_shek_cuirass Shek_Cuirass Shek_Cuirass 1  kedu_infantry_a 0  21037069 0 1695 704643236 15.000000 100 0 27 20 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_makeshift_plankshield Makeshift_Shield Makeshift_Shields 1  escudo_improvisado_2 0  268763143 6442450944 60 167772194 3.500000 100 0 4 0 0 280 89 100 43 0 0 0
+ 0
+0
+
+ itm_female_traveller_oufit Hemp_Robes(F) Hemp_Robes(F) 1  bandidadesert 0  16842765 0 1690 704643236 14.000000 100 0 18 10 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_female_pirate_shirt Hemp_Shirt(F) Hemp_Shirts(F) 1  sariguaoutfit 0  16842765 0 1690 704643236 14.000000 100 0 18 10 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_white_ronin_lamellar White_Ronin_Lamellar White_Ronin_Lamellar 1  lamellar_vest_av1 0  553713677 0 3970 123731968 18.000000 100 0 36 17 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_burka Shinobi_Headdress Shinobi_Headdresses 1  burka_2 0  1610678284 0 4410 23068672 0.500000 100 16 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_hiver_stainedkasa Hiver_Stained_Kasa Hiver_Stained_Kasa 1  hiverheadcomb 0  3221291020 0 4325 0 1.750000 100 20 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_pepper_sack Pepper Pepper 1  pepper 0  65547 0 455 0 50.000000 100 0 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_ronindirty_hakama Ronin_Dirty_Hakama Ronin_Dirty_Hakamas 1  ronindirtyhakama 0  553713677 0 5331 123731968 2.000000 70 0 19 9 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_holy_sandogasa Blessed_Sandogasa Blessed_Sandogasas 1  copy_holyhelmeto 0  536936460 0 6229 123731968 1.000000 70 33 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_scorchlander_rogue_outfit Scorchlander_Rogue_Shirt Scorchlander_Rogue_Shirts 1  scorchlanderogue 0  553713677 0 1095 704643236 2.000000 80 0 13 6 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_shek_cowled_helm Shek_Helmet_and_Cowl Shek_Helmets_and_Cowls 1  bandocasco 0  72477638668 0 3339 123731968 1.000000 100 31 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_mechanical_spider Mechanical_Spider_MKI Mechanical_Spiders_MKI 1  yaixie_1 0  4097 0 1811 110595670016 0.000000 40 0 58 0 4 165 44 40 112 0 544 0
+ 1
+ 23
+0
+
+ itm_llantashield Ancient_Scrap_Round_Shield Ancient_Scrap_Round_Shield 1  llantashield 0  4103 5100273664 2440 167772194 4.000000 100 0 28 0 0 339 90 0 40 0 0 0
+ 0
+0
+
+ itm_noble_arrows Noble_Arrows Noble_Arrows 3  rhun_arrow 0  flying_missile 2305843009213693952  rhun_quiver 3458764513820540928  69637 1610612736 6350 4398046511112 3.000000 50 0 0 0 0 0 0 0 91 33 260 0
+ 0
+0
+
+ itm_noble_bow Noble_Ebony_Bow Noble_Ebony_Bows 2  rhun_bow 0  rhun_bow_carry 3458764513820540928  6295560 5905584128 8145 655370 1.750000 50 0 0 0 3 0 81 69 0 0 283 0
+ 0
+0
+
+ itm_warlord_saber Warlord_Sabre Warlord_Sabres 1  rhun_cataphract_scimitar 0  4259842 9223388529822793742 3290 155668 1.500000 100 0 0 0 0 0 107 0 103 0 256 32
+ 0
+0
+
+ itm_cruel_pike Cruel_Pike Cruel_Pikes 1  rhun_cataphract_spear 0  1212485636 4222124851987200 3585 8202 2.250000 100 0 0 0 0 0 89 0 185 0 288 532
+ 0
+0
+
+ itm_clanguard_battlescythe Clan_Battlescythe Clan_Battlescythes 2  rhun_clanguard_scythe 0  double_scythe_carry 3458764513820540928  140836868 4222124851990272 7135 8202 3.000000 100 0 0 0 0 0 113 0 118 0 22 31
+ 0
+0
+
+ itm_nomad_blade Nomad_Blade Nomad_Blades 1  rhun_eastclan_sword 0  4259842 9223388534117761039 3218 155668 1.700000 100 0 0 0 0 0 99 0 97 0 275 28
+ 0
+0
+
+ itm_bloodstained_old_sword Bloodstained_Old_Sword Bloodstained_Old_Swords 1  copy_rhun_eastclan_sword 0  4259842 9223388534117761039 1218 20 1.700000 100 0 0 0 0 0 91 0 97 0 270 21
+ 0
+0
+
+ itm_rhun_infantry_sword Clan_Infantry_Sword Clan_Infantry_Swords 1  rhun_infantry_sword 0  4259842 9223388529822793743 375 24596 1.250000 100 0 0 0 0 0 110 0 83 0 273 19
+ 0
+0
+
+ itm_skinbandit_clawas Skin_Bandit_Frame Skin_Bandit_Frames 1  skinbanditclaw 0  16777229 0 9259 704643236 18.000000 20 0 45 30 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_simple_robe Homemade_Robe Homemade_Robes 1  arabic_kaftan_b 0  16842765 0 33 123731968 1.000000 100 0 9 9 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_ancient_skeleton_legs Ancient_Skeleton_Legs Ancient_Skeleton_Legs 1  new_IG88_feet 0  3854 0 465 123731968 1.000000 100 0 0 25 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_ancient_skeleton_claw Ancient_Skeleton_Claw Ancient_Skeleton_Claws 2  new_IG88_hand_L 0  gauntlets_L 134217728  65551 0 1040 704643236 1.000000 100 0 20 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_ancestral_skelebodee Ancient_Skeleton_Frame Ancient_Skeleton_Frames 1  new_IG88_body 0  16777229 0 106553 704643238 30.000000 100 0 55 33 9 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_nonla_and_turban Non_La Non_La 1  nonlaturban 0  536936460 0 300 123731968 1.000000 100 5 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_rebel_pike Wooden_Pike Wooden_Pikes 1  dunland_pike 0  409210884 4222124851987200 3125 8202 3.000000 100 0 0 0 0 0 81 0 245 0 287 532
+ 0
+0
+
+ itm_guom_truong Guom_Truong Guom_Truong 2  kiem_ngavoi 0  kiem_ngavoi_scab 3458764513820540928  4259843 9223635958593749232 4455 24596 2.000000 100 0 0 0 0 0 120 0 100 0 287 28
+ 0
+0
+
+ itm_alchemist_goggles Work_Goggles Work_Goggles 1  alchemistgoggles 0  553713676 0 430 123731968 1.000000 100 8 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_cannihunt_helmet Cannibal_Hunter_Helmet Cannibal_Hunter_Helmets 1  cascohuntas 0  1073811212 0 4325 704643238 1.750000 80 40 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_cannibal_hunter_leatherstu Studded_Leather_Armor Studded_Leather_Armors 1  kregia_council_guard 0  16842765 0 3690 169869440 14.000000 70 0 36 16 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_cannhunter_capt Hunter_Plate_and_Leathers Hunter_Plate_and_Leathers 1  kregia_halberd 0  16842765 0 5690 169869440 14.000000 70 2 40 24 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_flesh_shield Flesh_Covered_Kite_Shield Flesh_Covered_Kite_Shields 1  escudocarnes 0  262151 4831838208 227 167772194 3.500000 100 0 1 0 0 600 76 0 81 0 0 0
+ 0
+0
+
+ itm_boxer_ushanka Boxer_Ushanka Boxer_Ushankas 1  nord_hat_a 0  69644 0 3110 704643238 2.000000 100 21 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_boxer_ushanka2 Open_Boxer_Ushanka Open_Boxer_Ushanka 1  nord_hat 0  69644 0 3110 704643238 2.000000 100 21 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_willow_leaf_sabre Liuyedao Liuyedao 2  13th_tuboijbian1 0  13th_tuboijbian1_q 3458764513820540928  4259842 9223388568477499407 225 24596 1.250000 100 0 0 0 0 0 108 0 99 0 273 25
+ 0
+0
+
+ itm_dirty_gloves Stained_Gloves Stained_Gloves 1  white_gloves_L 0  4111 0 90 123731968 0.250000 120 0 5 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_fur_hood Masked_Fur_Hood Masked_Fur_Hoods 1  a_fur_hood_four 0  69256413196 0 15 123731968 1.000000 100 20 0 0 0 0 0 0 0 0 0 0
+ 0
+0
+
+ itm_okranite_headwraps Bindings_of_the_Faithful Bindings_of_the_Faithful 1  niblis 0  536874764 0 35 123731968 1.250000 100 14 0 0 0 0 0 0 0 0 0 0
  0
 0
 

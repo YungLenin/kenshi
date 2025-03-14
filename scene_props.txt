@@ -3379,3 +3379,4 @@ spr_a_artifact_fake_b 0 0 artifact_b bo_artifact_b 0
 spr_a_artifact_fake_c 0 0 artifact_c bo_artifact_c 0
 
 
+spr_jabba_palace_building_1 0 0 jabba_palace_building_1 bo_jabba_palace_building_1 0

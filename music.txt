@@ -1,4 +1,4 @@
-74
+75
 cant_find_this.ogg 0 0
 mount_and_blade_title_screen.ogg 4194432 4194432
 ambushed_by_neutral.ogg 266240 269312
@@ -22,6 +22,7 @@ escape.ogg 256 256
 fight_1.ogg 7168 7168
 fight_2.ogg 7168 7168
 fight_3.ogg 7168 7168
+fight_4.ogg 7168 7168
 fight_as_khergit.ogg 7172 7231
 percussion_battery.ogg 7168 7168
 fight_as_nord.ogg 7176 7231
@@ -73,3 +74,4 @@ victorious_vaegir.ogg 8388866 8388866
 victorious_vaegir_2.ogg 8388866 8388866
 wedding.ogg 256 256
 coronation.ogg 256 256
+tavern_3.ogg 16777728 16777728
